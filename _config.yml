@@ -5,7 +5,7 @@ title: UWEGAMES
 description: "Games development from an elder's persepective."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/" #important: start with /
-url: "https://AGPO93.github.io"
+url: "https://AGPO93.github.io/"
 
 # Build settings
 highlighter: rouge
