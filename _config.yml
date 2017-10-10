@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: UWEGAMES
+title: Andres Pereira
 description: "Games development from an elder's persepective."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/" #important: start with /
@@ -69,9 +69,9 @@ members:
     img: profile_1.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:james2.huxtable@uwe.ac.uk
+        url: mailto:andres2.pereira@uwe.ac.uk
       - title: twitter
-        url: http://twitter.com/HuxyUK
+        url: 
  
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Those who can do and those who can't teach games design."
