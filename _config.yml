@@ -52,10 +52,10 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - University of the West of England,
-    - Frenchay Campus, Bristol, BS16 1QY,
+    - 767 Filton Avenue,
+    - Filton, Bristol, BS32 7JX,
     - United Kingdom.
-email: james2.huxtable@uwe.ac.uk
+email: andres2.pereira@uwe.ac.uk
 
 
 
@@ -63,9 +63,9 @@ email: james2.huxtable@uwe.ac.uk
 
 # Members information. Shown on About page.
 members:
-  - name: James Huxtable
+  - name: Andres Pereira
     position: Da Man!
-    text: I am a keen and passionate games developer, whose love of programming extends to mentoring others to allow them to develop games for themselves.
+    text: I am a keen and passionate games developer, whose love of programming extends to doing absolutely nothing, and then panicking 5 days before a deadline.
     img: profile_1.jpg
     social:
       - title: envelope #use for email address
