@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: Andres Pereira
+title: Andrés Pereira
 description: "Games development from an elder's persepective."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/" #important: start with /
@@ -63,9 +63,9 @@ email: andres2.pereira@uwe.ac.uk
 
 # Members information. Shown on About page.
 members:
-  - name: Andres Pereira
-    position: Da Man!
-    text: I am a keen and passionate games developer, whose love of programming extends to doing absolutely nothing, and then panicking 5 days before a deadline.
+  - name: Andrés Pereira
+    position: Student
+    text: Second year Games Technology student, keen on gaining relevant experience in the games industry.
     img: profile_1.jpg
     social:
       - title: envelope #use for email address
@@ -74,4 +74,4 @@ members:
         url: 
  
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Those who can do and those who can't teach games design."
+about: "placeholder"
