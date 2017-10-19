@@ -66,7 +66,7 @@ members:
   - name: Andrés Pereira
     position: Student
     text: Second year Games Technology student, keen on gaining relevant experience in the games industry.
-    img: profile_1.jpg
+    img: profileAndres.jpg
     social:
       - title: envelope #use for email address
         url: mailto:andres2.pereira@uwe.ac.uk
