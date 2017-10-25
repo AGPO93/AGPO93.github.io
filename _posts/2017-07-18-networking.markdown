@@ -17,3 +17,13 @@ We've been given the task to design an improve the game 'Snake' by adding or mod
 Here are the possible changes I will be implementing in my version of Snake:
 
 - 2 player game mode: 2 players battle each other in a snake 'wrestling' match, where the objective is to eat the rival snake by tackling it's tail.
+
+
+Update 25/10/17
+
+2 player game mode discarded.
+
+New possible features:
+- - Make it time based, with the objective of the game being collecting the food under an X amount of time, whilst dodging obstacles.
+- Adding different levels, with the difficulty increasing progressively (moving obstacles, mazes)
+- Adding 'boosts' that change snake speed, give the snake abilities, etc.
