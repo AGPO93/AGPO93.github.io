@@ -12,7 +12,7 @@ img: snakegame.jpg
 thumb: quake_thumb.jpg
 ---
 
-We've been given the task to design an improve the game 'Snake' by adding or modifying features of the original game.
+We've been given the task to design an improve the game <b>'Snake'<b> by adding or modifying features of the original game.
 
 Here are the possible changes I will be implementing in my version of Snake:
 
