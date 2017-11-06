@@ -9,7 +9,7 @@ categories:
 - Development
 - Low-level programming
 img: snakegame.jpg
-thumb: quake_thumb.jpg
+thumb: c_thumb.jpg
 ---
 
 We've been given the task to design an improve the game <b>'Snake'</b> by adding or modifying features of the original game.
