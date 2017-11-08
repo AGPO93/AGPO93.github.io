@@ -21,4 +21,4 @@ Learning about <b>vectors</b> made the implementation of the multiple moving obs
 
 Here's a view of how my classes interact with each other:
 
-![UML](assets/img/blog/snakeUML.jpg)
+![snakeUML](assets/img/blog/snakeUML.jpg)
