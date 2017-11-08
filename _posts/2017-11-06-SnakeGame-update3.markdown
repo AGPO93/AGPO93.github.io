@@ -8,7 +8,7 @@ categories:
 - Game design
 - Development
 - Low-level programming
-img: infinite-snake.jpg
+img: eating-snake.jpg
 thumb: c_thumb.jpg
 ---
 
