@@ -8,7 +8,7 @@ categories:
 - Game design
 - Development
 - Low-level programming
-img: snakeUML.jpg
+img: post01.jpg
 thumb: c_thumb.jpg
 ---
 
