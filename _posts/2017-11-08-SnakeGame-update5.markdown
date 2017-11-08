@@ -8,8 +8,8 @@ categories:
 - Game design
 - Development
 - Low-level programming
-img: screenshot.jpg
-thumb: snakeUML.jpg
+img: snakeUML.jpg
+thumb: c_thumb.jpg
 ---
 
 Here's an overview of how my game objects interact.
