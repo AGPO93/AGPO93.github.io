@@ -20,5 +20,6 @@ The key aspect of this game is definitely it's challenge.
 Learning about <b>vectors</b> made the implementation of the multiple moving obstacles possible, which made me struggle for a couple of days.
 
 Here's a view of how my classes interact with each other:
+---
 
 img: uml.jpg
