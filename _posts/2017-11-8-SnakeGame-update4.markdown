@@ -25,4 +25,4 @@ In terms of bugs present, the only one I can think of is that you can press 2 ke
 
 overview of umls:
 
-<figure> <src = assets/img/blog/snakeUML.jpg> </figure> 
+<figure> <img> <src = assets/img/blog/snakeUML.jpg> </img> </figure> 
