@@ -27,6 +27,7 @@ thumb: c_thumb.jpg
   - Menu: It featured a simple menu from where the player could either choose to play the game or exit.
   - Hub: Once the player hit Play from the main menu, the hub scene would be rendered and from here, players could move around in the           theatre area and choose which minigame to play. The score and the main timer for the game were displayed in this scene.
   - Gameover screen: This is the screen the player would see once the main timer came to an end and the game finished. It featured a list       of the highscores and it would also give the player the option to replay the game or exit.
+  - Putting together the game: This consisted of linking the main menu to the hub scene, and then the hub scene to all of the minigames, and the gameover scene, in a way that the player always had the option to go from the minigames back to the hub whenever, from the hub to the main menu, and from the gameover screen to replay the game.
   
 
 <b>What could've been done better<b/>
