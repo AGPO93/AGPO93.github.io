@@ -8,7 +8,7 @@ categories:
 - Game design
 - Development
 - Low-level programming
-img: birdman-player-uml.jpg
+img: birdware-player-uml.jpg
 thumb: c_thumb.jpg
 ---
 
