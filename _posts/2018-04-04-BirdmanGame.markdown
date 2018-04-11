@@ -8,7 +8,7 @@ categories:
 - Game design
 - Development
 - Low-level programming
-img: obstacle-level.jpg
+img: birdman-poster.jpg
 thumb: c_thumb.jpg
 ---
 
