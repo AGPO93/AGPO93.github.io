@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Birdware"
+title:  "Birdware Player Class UML"
 date:   2018-01-25 16:54:46
 author: Andrés Pereira
 categories: 
