@@ -32,8 +32,6 @@ thumb: c_thumb.jpg
   
   - Obstacle Spawning: at first I had one obstacle base class which inherited from the GameObject class, and the idea was to spawn these     obstacles from two different places on the Y-axis, but for some reason all of the obstacles were being spawned in the same place,       for which reason I ended up having two different classes for the top obstacles and bottom obstacles.
   
-  - Collisions:
+  - Collisions: rather than using collision boxes, they were based on sprite positions, which caused the collisions to look very             unaccurate, the player sprite would visibly be touching one of the obstacles, yet the collision wouldn't be triggered unless their       X-axis position were equal.
   
-  
-  collision wasnt accurate
-  procedural generation of obstacles was shit
+  - Procedural Level Generation: the only procedural level generation present in the game was the spawning of obstacles, which was           supposed to dictate the tempo and difficulty of the game, by randomly generating obstacles and progressively increasing in               difficulty. I used a random machine and timers to spawn the obstacles, and the idea was to randomly spawn them (both top and             bottom), increasing the difficulty progressively by reducing the timers and essentially spawning the obstacles more often as the         player progressed. In the final game, the obstacles would most times be spawned at the same time (at the top and the bottom), and       the playthroughs were very similar every time, making the game repetitive.
