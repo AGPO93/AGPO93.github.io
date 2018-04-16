@@ -1,0 +1,18 @@
+---
+layout: project
+title:  "Orrery"
+date:   2016-10-15 16:54:46
+author: Andres Pereira
+categories:
+- project
+img: orrery1.png
+thumb: quake_thumb.jpg
+carousel:
+- orrery2.png
+- orrery3.png
+tagged: Engines, Development
+website: http://www.coroflot.com/AGPO
+abstract: My first 3D modelling project
+---
+#### Orrery
+This was my first ever 3D modelling project, and it features a mechanical orrery composed of 5 rotating planets orbiting around the sun, and one mood orbiting around one of the planets.This solar system isn't meant to be realistic, obviously. Everything but the textures was made from scratch using Maya.
