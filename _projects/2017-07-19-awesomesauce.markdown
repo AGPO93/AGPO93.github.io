@@ -1,27 +1,23 @@
 ---
 layout: project
-title:  "AwesomeSauce Game Engine"
-date:   2014-04-25 16:54:46
-author: James Huxtable
+title:  "Workshop"
+date:   2017-03-01 16:54:46
+author: Andres Pereira
 categories:
 - project
-img: xna-logo1.png
-thumb: thumb02.jpg
+img: workshop1.png
+thumb: quake_thumb.jpg
 carousel:
-- asge_01.png
-- asge_02.png
-tagged: C++, Engines, Development
-website: https://github.com/HuxyUK/AwesomeSauceGE
-abstract: A simple 2D game engine
+- workshop2.png
+- workshop3.png
+- workshop4.png
+tagged: Engines, Development
+website: http://www.coroflot.com/AGPO
+abstract: Made in Unity for a game jam
 ---
-#### Awesome Sauce Game Engine
-Developed in response to students needs, a small framework built upon modern C++ was created modelled in the XNA mould. It is designed to afford accessible game development, but restrict the level of hand-holding required. At current, it supports only 2D and does not provide advanced technologies such as networking or controller input. 
+#### Workshop
+Workshop is a 2D multiplayer game that I made working in collaboration with a friend for a 4 day cyber security game jam hosted by PlayWest in May 2017.
 
-#### Foundations
-ASGE is built upon the following technologies
-1. C++11
-2. GLEW
-3. GLFW
-4. GLM
-5. STB
-6. PDCurses
+In this game, the objective is to repair as many laptops as possible, by placing it in the right workstation and succesfully completing a minigame to get rid of the issue. It's a possibility that laptops have more than one thing wrong with them, in which case you'd have to complete multiple minigames.
+After a laptop has been fully repaired, it must be shipped out for it to add to your score.
+The 3 workstations represent 3 different cyber security threats: viruses, contaminated USBs, and encryption.
