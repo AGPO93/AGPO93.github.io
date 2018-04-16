@@ -1,0 +1,21 @@
+---
+layout: project
+title:  "Waverun"
+date:   2017-01-20 16:54:46
+author: Andres Pereira
+categories:
+- project
+img: waverun1.png
+carousel:
+- waverun2.png
+- waverun4.png
+- waverun3.png
+tagged: Games
+client: None
+website: http://www.coroflot.com/AGPO
+---
+#### WaveRun
+WaveRun is a simple 2D platformer game I made for my first ever game jam, the Global Game Jam in January 2017, working with 4 other friends for 2 days. The entire game was made using Unity.
+The goal of the game is to reach the end of the level dodging obstacles and jumping on platforms whilst being pursued by a giant wave.
+
+It goes without saying the theme of the game jam was "Waves".
