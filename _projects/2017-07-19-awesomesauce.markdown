@@ -10,7 +10,6 @@ thumb: quake_thumb.jpg
 carousel:
 - workshop2.png
 - workshop3.png
-- workshop4.png
 tagged: Engines, Development
 website: http://www.coroflot.com/AGPO
 abstract: Made in Unity for a game jam
