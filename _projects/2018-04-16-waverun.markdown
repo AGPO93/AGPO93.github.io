@@ -5,7 +5,7 @@ date:   2017-01-20 16:54:46
 author: Andres Pereira
 categories:
 - project
-img: waverun1.png
+img: workshop1.png
 thumb: quake_thumb.jpg
 carousel:
 - waverun2.png
