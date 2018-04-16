@@ -6,6 +6,7 @@ author: Andres Pereira
 categories:
 - project
 img: waverun1.png
+thumb: quake_thumb.jpg
 carousel:
 - waverun2.png
 - waverun4.png
@@ -13,6 +14,7 @@ carousel:
 tagged: Games
 client: None
 website: http://www.coroflot.com/AGPO
+abstract: Made in Unity for a game jam
 ---
 #### WaveRun
 WaveRun is a simple 2D platformer game I made for my first ever game jam, the Global Game Jam in January 2017, working with 4 other friends for 2 days. The entire game was made using Unity.
