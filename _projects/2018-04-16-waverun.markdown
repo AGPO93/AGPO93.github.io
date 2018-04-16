@@ -5,11 +5,11 @@ date:   2017-01-20 16:54:46
 author: Andres Pereira
 categories:
 - project
-img: workshop1.png
+img: waverun1.png
 thumb: quake_thumb.jpg
 carousel:
 - waverun2.png
-- waverun4.png
+- waverun3.png
 tagged: Games
 client: None
 website: http://www.coroflot.com/AGPO
