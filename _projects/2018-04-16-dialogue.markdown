@@ -1,0 +1,20 @@
+---
+layout: project
+title:  "Dialogue System"
+date:   2017-12-01 16:54:46
+author: Andres Pereira
+categories:
+- project
+img: dialogue1.png
+thumb: quake_thumb.jpg
+carousel:
+- dialogue2.png
+- dialogue3.png
+tagged: Engines, Development
+website: http://www.coroflot.com/AGPO
+abstract: Modular, customisable
+---
+#### Dialogue System
+I created this customisable dialogue system in Unity, using C# scripts. Due to the use of arrays, editing, adding, and removing conversation nodes is very easy.
+It is also possible to trigger events in specific nodes of the conversation, such as turning lights off.
+
