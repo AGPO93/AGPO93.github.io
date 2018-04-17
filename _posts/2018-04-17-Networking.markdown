@@ -19,4 +19,15 @@ We decided to develop a Heroes of Might and Magic type of game, inspired mainly 
 
 <b>Development Process<b/>
 
-After doing a fair amount of planning we delegated tasks to all the members of our team
+After doing a fair amount of planning we delegated tasks to all the members of our team, and my first task was to make a menu system.
+
+  - Menu System: our game would feature a main menu, from where the player has the option to start or exit the game, but also access the       settings menu. In the settings menu the player can change the screen size (fullscreen or windowed), and the option to mute the sound       in the game.
+    There's also a pause menu, that the player can access once in game, and from where the options of fleeing and resuming the game are       available.
+    
+The second task I worked on was the UI for the game.
+
+  - UI: the game features a simple UI that shows the characters health, attacks, server status, and provides information on who's turn is     it.
+
+<b>What Went Wrong<b/>
+  
+  So far: our game supports gamepads, but the menu system doesn't work very well with them. When navigating through the menus, its only possible for the players who use a gamepad to select the first and last option on the menu.
