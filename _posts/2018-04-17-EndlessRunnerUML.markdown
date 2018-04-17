@@ -8,7 +8,7 @@ categories:
 - Game design
 - Development
 - Low-level programming
-img: endless-iml.jpg
+img: endless-uml.jpg
 thumb: c_thumb.jpg
 ---
 
