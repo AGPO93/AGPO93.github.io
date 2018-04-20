@@ -8,7 +8,7 @@ categories:
 - Game design
 - Development
 - Low-level programming
-img: capture.png
+img: butwhole2.jpg
 thumb: c_thumb.jpg
 ---
 
