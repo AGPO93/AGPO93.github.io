@@ -30,4 +30,4 @@ The second task I worked on was the UI for the game.
 
 <b>What Went Wrong<b/>
   
-  So far: our game supports gamepads, but the menu system doesn't work very well with them. When navigating through the menus, its only possible for the players who use a gamepad to select the first and last option on the menu.
+  So far: Our game supports gamepads, but the menu system doesn't work very well with them. When navigating through the menus, its only possible for the players who use a gamepad to select the first and last option on the menu.
