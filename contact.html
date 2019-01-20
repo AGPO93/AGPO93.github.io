@@ -33,8 +33,14 @@ permalink: /contact/
         <div class="col-lg-4">
             <h4>My Details</h4>
             <div class="hline"></div>
+                            <p>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                </p>
+
                 <p>
-                    Email: Andres.Pereira@live.uwe.ac.uk
+                    Email: Andres.Pereira@live.uwe.ac.uk </br>
                 </p>
         </div>
     </div><! --/row -->
