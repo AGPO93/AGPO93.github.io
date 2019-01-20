@@ -8,11 +8,6 @@ permalink: /
     <div class="row">
          <div class="col-lg-8 col-lg-offset-2">
             <h4>Latest Posts</h4>
-            <div class="hline"></div>
-            {% for post in site.posts limit:10 %}
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-            {% endfor %}
-             <div class="hline"></div> 
         </div>      
     </div><! --/row -->
 </div><! --/container -->
