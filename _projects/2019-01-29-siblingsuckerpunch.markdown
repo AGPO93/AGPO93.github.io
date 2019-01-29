@@ -1,0 +1,22 @@
+---
+layout: project
+title:  "Workshop"
+date:   2017-03-01 16:54:46
+author: Andres Pereira
+categories:
+- project
+img: profileAndres.jpg
+thumb: quake_thumb.jpg
+carousel:
+- workshop2.png
+- workshop3.png
+tagged: Engines, Development
+website: http://www.coroflot.com/AGPO
+abstract: Made in Unity for a game jam
+---
+#### Workshop
+Workshop is a 2D multiplayer game that I made working in collaboration with a friend for a 4 day cyber security game jam hosted by PlayWest in May 2017.
+
+In this game, the objective is to repair as many laptops as possible, by placing it in the right workstation and succesfully completing a minigame to get rid of the issue. It's a possibility that laptops have more than one thing wrong with them, in which case you'd have to complete multiple minigames.
+After a laptop has been fully repaired, it must be shipped out for it to add to your score.
+The 3 workstations represent 3 different cyber security threats: viruses, contaminated USBs, and encryption.
