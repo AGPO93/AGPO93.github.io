@@ -5,7 +5,7 @@ date:   2017-03-01 16:54:46
 author: Andres Pereira
 categories:
 - project
-img: profileAndres.jpg
+img: portfolio_06.jpg
 thumb: quake_thumb.jpg
 carousel:
 - workshop2.png
