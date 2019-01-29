@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Sibling Suckerpunch"
+title:  "Open World"
 date:   2017-03-01 16:54:46
 author: Andres Pereira
 categories:
