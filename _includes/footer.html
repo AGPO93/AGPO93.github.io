@@ -22,6 +22,7 @@
                 <h4>Contact Details</h4>
                 <div class="hline-w"></div>
                 <p>
+                    {{ site.email }}
                     {% for line in site.address.first.lines %}
                         {{ line }} <br>
                     {% endfor %}
