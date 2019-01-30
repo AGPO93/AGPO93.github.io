@@ -1,7 +1,7 @@
 ---
 layout: project
-title:  "CTP"
-date:   2017-03-01 16:54:46
+title:  "CTP title"
+date:   In progress
 author: Andres Pereira
 categories:
 - project
@@ -10,8 +10,6 @@ thumb: quake_thumb.jpg
 carousel:
 - workshop2.png
 - workshop3.png
-tagged: Engines, Development
-website: http://www.coroflot.com/AGPO
 abstract: Made in Unity for a game jam
 ---
 #### Workshop
