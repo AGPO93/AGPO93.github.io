@@ -2,7 +2,6 @@
 layout: project
 title:  "Unity Dialogue System"
 date:   2017-12-01 16:54:46
-author: Andres Pereira
 tools: Unity
 img: dialogue1.png
 thumb: quake_thumb.jpg
