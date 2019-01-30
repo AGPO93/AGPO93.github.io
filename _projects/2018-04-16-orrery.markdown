@@ -2,16 +2,12 @@
 layout: project
 title:  "Orrery"
 date:   2016-10-15 16:54:46
-author: Andres Pereira
-categories:
-- project
+tools: Autodesk Maya
 img: orrery1.jpg
 thumb: quake_thumb.jpg
 carousel:
 - orrery2.jpg
 - orrery3.jpg
-tagged: Engines, Development
-website: http://www.coroflot.com/AGPO
 abstract: My first 3D modelling project
 ---
 #### Orrery

@@ -2,17 +2,12 @@
 layout: project
 title:  "Waverun"
 date:   2017-01-20 16:54:46
-author: Andres Pereira
-categories:
-- project
+tools: Unity
 img: waverun1.png
 thumb: quake_thumb.jpg
 carousel:
 - waverun2.png
 - waverun3.png
-tagged: Games
-client: None
-website: http://www.coroflot.com/AGPO
 abstract: Made in Unity for a game jam
 ---
 #### WaveRun

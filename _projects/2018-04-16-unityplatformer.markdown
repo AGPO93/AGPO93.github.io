@@ -1,21 +1,18 @@
 ---
 layout: project
-title:  "Unity Platformer"
+title:  "Unity 3D Platformer"
 date:   2018-04-01 16:54:46
-author: Andres Pereira
-categories:
-- project
+tools: Unity
 img: platformer1.png
 thumb: quake_thumb.jpg
 carousel:
 - platformer2.png
 - platformer3.png
-tagged: Engines, Development
-website: http://www.coroflot.com/AGPO
-abstract: Work in progress
+
+abstract: Featuring combat system, AI, and more
 ---
 #### Unity Platformer
-*Work in progress*
+
 3D platformer game developed in Unity.
 
 So far it features a player that can run, jump, and attack, power-ups, enemies that patrol specific areas, attack, and also spawn smaller enemies when they die.

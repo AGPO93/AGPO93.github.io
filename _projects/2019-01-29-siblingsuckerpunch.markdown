@@ -9,8 +9,6 @@ carousel:
 - ss1.jpg
 - ss2.jpg
 - ss3.jpg
-- ss4.jpg
-website: https://globalgamejam.org/2019/games/sibling-suckerpunch
 abstract: Global Game Jam 2019 WINNER!
 ---
 #### Sibling Suckerpunch
