@@ -57,7 +57,7 @@ email: AGPO93@gmail.com
 # Members information. Shown on About page.
 members:
   - name: Andrés Pereira
-    position: Student
+    position: Games Technology Student
     text: Game Developer with interest in the fields of Robotics and Software Development.
     img: profileAndres.jpg
     social:
@@ -67,4 +67,4 @@ members:
         url: https://www.linkedin.com/in/agpo93/
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Game developer with interest in the fields of Robotics and Software development."
+about: "Game developer with interest in the fields of Robotics and Software Development."
