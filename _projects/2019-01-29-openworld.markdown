@@ -1,17 +1,13 @@
 ---
 layout: project
 title:  "Open World"
-date:   2017-03-01 16:54:46
-author: Andres Pereira
-categories:
-- project
+date:   2018-12-28 16:54:46
+tools: Unity, XML
 img: portfolio_06.jpg
 thumb: quake_thumb.jpg
 carousel:
 - workshop2.png
 - workshop3.png
-tagged: Engines, Development
-website: http://www.coroflot.com/AGPO
 abstract: Made in Unity for a game jam
 ---
 #### Workshop
