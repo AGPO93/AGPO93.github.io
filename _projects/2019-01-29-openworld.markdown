@@ -8,6 +8,7 @@ thumb: quake_thumb.jpg
 carousel:
 - workshop2.png
 - workshop3.png
+- ss1.jpg
 abstract: Made in Unity for a game jam
 ---
 #### Workshop

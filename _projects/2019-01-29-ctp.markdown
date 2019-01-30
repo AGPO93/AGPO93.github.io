@@ -2,15 +2,13 @@
 layout: project
 title:  "CTP title"
 date:   In progress
-author: Andres Pereira
-categories:
-- project
+tools: Python, NAO robot, NAOqi
 img: portfolio_06.jpg
 thumb: quake_thumb.jpg
 carousel:
 - workshop2.png
 - workshop3.png
-abstract: Made in Unity for a game jam
+abstract: Learn Python through human-robot interactions
 ---
 #### Workshop
 Workshop is a 2D multiplayer game that I made working in collaboration with a friend for a 4 day cyber security game jam hosted by PlayWest in May 2017.
