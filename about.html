@@ -18,18 +18,19 @@ permalink: /about/
                             <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
                         {% endfor %}
                     </div><!-- he bg -->
-                </div><!-- he view -->		
+                </div><!-- he view -->
             </div><!-- he wrap -->
             <h4>{{ member.name }}</h4>
             <h5 class="ctitle">{{ member.position }}</h5>
             <p>{{ member.text }}</p>
             <div class="hline"></div>
-        </div><! --/col-lg-3 -->	 	
+        </div><! --/col-lg-3 -->
         {% endfor %}
-            </br>    
+            </br>
         </div>
         <div class="col-lg-6">
             <h4>About Me</h4>
+            <div class="hline"></div>
             <p>I moved to England in 2015 after realising I wasn't happy doing a Systems Engineering degree back home in Venezuela. With a clean slate, I decided to enroll in a Games Technology course at the University of the West of England, Bristol, and moved there in 2016.</p>
             <p>My main interests are games, robotics, martial arts, fitness and nutrition.</b>
             <p><br/><a href="{{ "/contact/" | prepend: site.baseurl }}" class="btn btn-theme">Contact Me</a></p>
