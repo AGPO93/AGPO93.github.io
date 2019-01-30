@@ -5,18 +5,23 @@ date:   2017-03-01 16:54:46
 author: Andres Pereira
 categories:
 - project
-img: portfolio_06.jpg
+img: ssTitle.jpg
 thumb: quake_thumb.jpg
 carousel:
-- workshop2.png
-- workshop3.png
+- ss1.jpg
+- ss2.jpg
+- ss3.jpg
+- ss4.jpg
 tagged: Engines, Development
 website: http://www.coroflot.com/AGPO
-abstract: Made in Unity for a game jam
+abstract: Global Game Jam 2019 WINNER!
 ---
-#### Workshop
-Workshop is a 2D multiplayer game that I made working in collaboration with a friend for a 4 day cyber security game jam hosted by PlayWest in May 2017.
+#### Sibling Suckerpunch
+<br>
+Reminiscent of fighting with your brother, in this 2.5D 2-player brawler you need to fight it out without destroying too much of your room! If your mother hears too much havoc by breaking the furniture she'll tell off the least damaged brother, but be finished before dinner gets cold else she'll come up either way!
 
-In this game, the objective is to repair as many laptops as possible, by placing it in the right workstation and succesfully completing a minigame to get rid of the issue. It's a possibility that laptops have more than one thing wrong with them, in which case you'd have to complete multiple minigames.
-After a laptop has been fully repaired, it must be shipped out for it to add to your score.
-The 3 workstations represent 3 different cyber security threats: viruses, contaminated USBs, and encryption.
+Get an executable [here](https://globalgamejam.org/2019/games/sibling-suckerpunch).
+
+I worked on this project as a part of a team of 5 for the Global Game Jam 2019, which we <b>WON!</b>
+
+I fulfilled the role of programmer for most of it, and worked on in-game events, particle systems, dialogues, cutscenes, and other features that helped polish the game.
