@@ -1,10 +1,7 @@
 ---
 layout: project
 title:  "Sibling Suckerpunch"
-date:   2017-03-01 16:54:46
-author: Andres Pereira
-categories:
-- project
+date:   2019-01-27 16:54:46
 img: ssTitle.jpg
 thumb: quake_thumb.jpg
 carousel:
@@ -12,8 +9,7 @@ carousel:
 - ss2.jpg
 - ss3.jpg
 - ss4.jpg
-tagged: Engines, Development
-website: http://www.coroflot.com/AGPO
+website: https://globalgamejam.org/2019/games/sibling-suckerpunch
 abstract: Global Game Jam 2019 WINNER!
 ---
 #### Sibling Suckerpunch
