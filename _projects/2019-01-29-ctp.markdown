@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "CTP title"
-date:   In progress
+date:   2019-01-31 16:54:46
 tools: Python, NAO robot, NAOqi
 img: portfolio_06.jpg
 thumb: quake_thumb.jpg
