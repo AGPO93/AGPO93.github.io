@@ -8,6 +8,7 @@ thumb: quake_thumb.jpg
 carousel:
 - workshop2.png
 - workshop3.png
+- waverun1.png
 abstract: Learn Python through human-robot interactions
 ---
 #### Workshop
