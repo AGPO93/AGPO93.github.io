@@ -20,4 +20,6 @@ Get an executable [here](https://globalgamejam.org/2019/games/sibling-suckerpunc
 
 I worked on this project as a part of a team of 5 for the Global Game Jam 2019, which we <b>WON!</b>
 
+<br>[![GGJ team photo](https://i.gyazo.com/d1ae34376a08ad12f9d8c2e4a184acb1.jpg)](https://gyazo.com/d1ae34376a08ad12f9d8c2e4a184acb1)
+
 I fulfilled the role of programmer for most of it, and worked on in-game events, particle systems, dialogues, cutscenes, and other features that helped polish the game.
