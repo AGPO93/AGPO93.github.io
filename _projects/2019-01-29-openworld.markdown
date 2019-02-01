@@ -1,7 +1,7 @@
 ---
 layout: project
-title:  "Open World Streaming System"
-date:   2019-01-28 16:54:46
+title: "Open World Streaming System"
+date: 2019-01-28 16:54:46
 tools: Unity, XML
 img: openworld1.jpg
 thumb: quake_thumb.jpg
