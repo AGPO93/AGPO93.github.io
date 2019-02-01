@@ -3,10 +3,12 @@ layout: project
 title:  "Sibling Suckerpunch"
 date:   2019-01-27 16:54:46
 tools: Unity
-img: ssTitle.jpg
+img: ss1.jpg
 thumb: quake_thumb.jpg
 carousel:
-- orrery2.jpg
+- ss5.jpg
+- ss2.jpg
+- ss3.jpg
 - ss4.jpg
 abstract: Global Game Jam 2019 WINNER!
 ---
