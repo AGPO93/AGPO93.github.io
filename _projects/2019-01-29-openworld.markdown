@@ -6,8 +6,8 @@ tools: Unity, XML
 img: openworld1.jpg
 thumb: quake_thumb.jpg
 carousel:
-- openworld1.jpg
-- openworld2.jpg
+- openworld/openworld1.jpg
+- openworld/openworld2.jpg
 abstract: Loads and unloads assets in run-time based on the player's position
 ---
 #### Open World Streaming System
