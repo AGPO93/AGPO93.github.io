@@ -6,8 +6,8 @@ tools: Unity
 img: platformer1.png
 thumb: quake_thumb.jpg
 carousel:
-- platformer2.png
-- platformer3.png
+- platformer/platformer2.png
+- platformer/platformer3.png
 
 abstract: Featuring combat system, AI, and more
 ---

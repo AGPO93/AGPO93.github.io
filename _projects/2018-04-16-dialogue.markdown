@@ -6,8 +6,8 @@ tools: Unity
 img: dialogue1.png
 thumb: quake_thumb.jpg
 carousel:
-- dialogue2.png
-- dialogue3.png
+- dialogue/dialogue2.png
+- dialogue/dialogue3.png
 abstract: Modular, customisable
 ---
 #### Dialogue System
