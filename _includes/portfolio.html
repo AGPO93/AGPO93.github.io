@@ -1,5 +1,5 @@
 <div id="portfoliowrap">
-    <div class="portfolio-right">
+    <div class="portfolio-centered">
         {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
         <div class="recentitems portfolio">
             {% for project in site.projects reversed limit:include.limit %}
