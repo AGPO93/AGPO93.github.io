@@ -7,8 +7,8 @@ img: waverun1.png
 thumb: quake_thumb.jpg
 carousel:
 - waverun/waverun2.png
-- waverun/waverun3.png
 - waverun/waverun4.png
+- waverun/waverun3.png
 abstract: Made in Unity for a game jam
 ---
 #### WaveRun
