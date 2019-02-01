@@ -6,8 +6,8 @@ tools: Python, NAO robot, NAOqi
 img: ctp1.jpg
 thumb: quake_thumb.jpg
 carousel:
-- ctp1.jpg
-- ctp3.jpg
+- ctp/ctp1.jpg
+- ctp/ctp3.jpg
 abstract: Learn Python through human-robot interactions
 ---
 #### Python Learning Tool
