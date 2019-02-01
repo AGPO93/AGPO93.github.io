@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Unity 3D Platformer"
-date:   2018-04-01 16:54:46
+date: 2018-04-01 16:54:46
 tools: Unity
 img: platformer1.png
 thumb: quake_thumb.jpg
