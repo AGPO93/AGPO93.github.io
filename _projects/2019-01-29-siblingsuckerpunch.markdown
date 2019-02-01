@@ -12,7 +12,7 @@ carousel:
 - ss/ss4.jpg
 abstract: Global Game Jam 2019 WINNER!
 ---
-#### Sibling Suckerpunch
+#### Global Game Jam 2019 WINNER!
 <br>
 Reminiscent of fighting with your brother, in this 2.5D 2-player brawler you need to fight it out without destroying too much of your room! If your mother hears too much havoc by breaking the furniture she'll tell off the least damaged brother, but be finished before dinner gets cold else she'll come up either way!
 

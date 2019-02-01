@@ -11,7 +11,7 @@ carousel:
 
 abstract: Featuring combat system, AI, and more
 ---
-#### Unity Platformer
+#### Featuring combat system, AI, and more
 <br>
 3D platformer game developed in Unity.
 

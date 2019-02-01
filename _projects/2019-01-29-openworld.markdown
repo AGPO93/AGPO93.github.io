@@ -8,9 +8,9 @@ thumb: quake_thumb.jpg
 carousel:
 - openworld/openworld1.jpg
 - openworld/openworld2.jpg
-abstract: Loads and unloads assets in run-time based on the player's position
+abstract: Asset streaming in run-time
 ---
-#### Open World Streaming System
+#### Asset streaming in run-time
 <br>
 This system loads assets in run-time based on the player's current position. All the asset data like position, rotation and scale is kept on XML files, that are then read in run-time in order to instantiate each prefab.
 

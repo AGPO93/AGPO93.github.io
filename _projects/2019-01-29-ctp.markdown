@@ -10,7 +10,7 @@ carousel:
 - ctp/ctp3.jpg
 abstract: Learn Python through human-robot interactions
 ---
-#### Python Learning Tool
+#### Learn Python through human-robot interactions
 
 <br><b>In progress.</b>
 

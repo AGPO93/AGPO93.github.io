@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Orrery"
+title:  "3D Mechanical Orrery"
 date: 2016-10-15 16:54:46
 tools: Autodesk Maya
 img: orrery1.jpg
@@ -8,8 +8,9 @@ thumb: quake_thumb.jpg
 carousel:
 - orrery/orrery2.jpg
 - orrery/orrery3.jpg
-abstract: My first 3D modelling project
+- orrery/orrery4.jpg
+abstract: Fully animated mechanical orrery that simulates a solar system
 ---
-#### Orrery
+#### Fully animated mechanical orrery that simulates a solar system
 <br>
-This was my first ever 3D modelling project, and it features a mechanical orrery composed of 5 rotating planets orbiting around the sun, and one mood orbiting around one of the planets.This solar system isn't meant to be realistic, obviously. Everything but the textures was made from scratch using Maya.
+This was my first ever 3D modelling project, and it features a mechanical orrery composed of 5 rotating planets orbiting around the sun, and one mood orbiting around one of the planets. This solar system isn't meant to be realistic, obviously. Everything but the textures was made from scratch using Maya.

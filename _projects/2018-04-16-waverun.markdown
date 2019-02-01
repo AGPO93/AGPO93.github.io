@@ -9,9 +9,9 @@ carousel:
 - waverun/waverun2.png
 - waverun/waverun4.png
 - waverun/waverun3.png
-abstract: Made in Unity for a game jam
+abstract: 2D Platformer - Glogal Game Jam 2017
 ---
-#### WaveRun
+#### 2D Platformer - Glogal Game Jam 2017
 <br>
 WaveRun is a simple 2D platformer game I made for my first ever game jam, the Global Game Jam in January 2017, working with 4 other friends for 2 days. The entire game was made using Unity.
 The goal of the game is to reach the end of the level dodging obstacles and jumping on platforms whilst being pursued by a giant wave.
