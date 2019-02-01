@@ -6,7 +6,7 @@ permalink: /contact/
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-8">
-            <h4>Get In Touch!</h4>
+            <h4>Get In Touch</h4>
             <div class="hline"></div>
             <br> </br>
                 <form role="form">
@@ -38,6 +38,12 @@ permalink: /contact/
                     AGPO93@gmail.com
                     <br><b>LinkedIn:</b></br>
                     AGPO93
+                    {% for network in site.social %}
+                        <a href="{{ network.url }}" class="btn-social btn-outline">
+                          <i class="fa fa-{{ network.title }}" aria-hidden="true"></i>
+                          <span class="sr-only">{{network.title}}</span>
+                        </a>
+                    {% endfor %}
                 </p>
         </div>
     </div><! --/row -->
