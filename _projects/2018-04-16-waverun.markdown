@@ -3,8 +3,6 @@ layout: project
 title:  "Waverun"
 date: 2017-01-20 16:54:46
 tools: Unity
-categories:
-- project
 img: waverun1.png
 thumb: quake_thumb.jpg
 carousel:

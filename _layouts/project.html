@@ -21,9 +21,8 @@ layout: default
             <div class="hline"></div>
             <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>
             <p><b>Tools:</b> {{ page.tools }}</p>
-            <p><b>Categories:</b> {{ page.categories }}</p>
         </div>
     </div><! --/row -->
 </div><! --/container -->
 
-{% include portfolio.html title="Other Projects" limit=5 %}
+{% include portfolio.html title="Other Projects" limit=10 %}
