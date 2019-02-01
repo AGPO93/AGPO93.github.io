@@ -6,10 +6,10 @@ tools: Unity
 img: ss1.jpg
 thumb: quake_thumb.jpg
 carousel:
-- ss5.jpg
-- ss2.jpg
-- ss3.jpg
-- ss4.jpg
+- ss/s5.jpg
+- ss/ss2.jpg
+- ss/ss3.jpg
+- ss/ss4.jpg
 abstract: Global Game Jam 2019 WINNER!
 ---
 #### Sibling Suckerpunch

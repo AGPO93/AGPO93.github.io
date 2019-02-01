@@ -1,19 +1,24 @@
 ---
 layout: project
-title:  "CTP title"
+title:  "Python Learning Tool"
 date:   2019-01-31 16:54:46
 tools: Python, NAO robot, NAOqi
 img: portfolio_06.jpg
 thumb: quake_thumb.jpg
 carousel:
-- workshop2.png
-- workshop3.png
-- waverun2.png
+- ctp1.jpg
+- ctp3.jpg
 abstract: Learn Python through human-robot interactions
 ---
-#### Workshop
-Workshop is a 2D multiplayer game that I made working in collaboration with a friend for a 4 day cyber security game jam hosted by PlayWest in May 2017.
+#### Python Learning Tool
 
-In this game, the objective is to repair as many laptops as possible, by placing it in the right workstation and succesfully completing a minigame to get rid of the issue. It's a possibility that laptops have more than one thing wrong with them, in which case you'd have to complete multiple minigames.
-After a laptop has been fully repaired, it must be shipped out for it to add to your score.
-The 3 workstations represent 3 different cyber security threats: viruses, contaminated USBs, and encryption.
+<br><b>In progress.</b>
+
+Take a look at an early stages [prototype](https://www.youtube.com/watch?v=2YFnfZBKT6Q) of this project.
+
+Learn to code in Python by creating behaviours for the NAO robot and
+complete different tasks by utilising NAO's capabilities in order to obtain points and progress within this gamified environment.
+
+This project was chosen as one of the best in my course, and I got the opportunity to showcase it at an open event on January 2019 at the Colston Hall in Bristol.
+
+[Colston Hall Showcase Event](ctp2.jpg)

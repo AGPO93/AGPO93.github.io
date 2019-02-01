@@ -6,8 +6,8 @@ tools: Autodesk Maya
 img: orrery1.jpg
 thumb: quake_thumb.jpg
 carousel:
-- orrery2.jpg
-- orrery3.jpg
+- orrery/orrery2.jpg
+- orrery/orrery3.jpg
 abstract: My first 3D modelling project
 ---
 #### Orrery
