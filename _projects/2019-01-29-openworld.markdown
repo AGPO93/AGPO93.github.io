@@ -1,19 +1,19 @@
 ---
 layout: project
-title:  "Open World"
+title:  "Open World Streaming System"
 date:   2018-12-28 16:54:46
 tools: Unity, XML
-img: portfolio_06.jpg
+img: openworld1.jpg
 thumb: quake_thumb.jpg
 carousel:
-- workshop2.png
-- workshop3.png
-- ss1.jpg
-abstract: Made in Unity for a game jam
+- openworld1.jpg
+- openworld2.jpg
+abstract: Loads and unloads assets in run-time based on the player's position
 ---
-#### Workshop
-Workshop is a 2D multiplayer game that I made working in collaboration with a friend for a 4 day cyber security game jam hosted by PlayWest in May 2017.
+#### Open World Streaming System
+<br>
+This system loads assets in run-time based on the player's current position. All the asset data like position, rotation and scale is kept on XML files, that are then read in run-time in order to instantiate each prefab.
 
-In this game, the objective is to repair as many laptops as possible, by placing it in the right workstation and succesfully completing a minigame to get rid of the issue. It's a possibility that laptops have more than one thing wrong with them, in which case you'd have to complete multiple minigames.
-After a laptop has been fully repaired, it must be shipped out for it to add to your score.
-The 3 workstations represent 3 different cyber security threats: viruses, contaminated USBs, and encryption.
+As shown below, only the surrounding areas to the players get loaded and when the player moves around, the far away areas get deleted.
+
+I created this low poly world to demonstrate this system; it currently holds static assets such as trees and rocks, but it also spawns NPCs that patrol areas, follow, and attack the player.

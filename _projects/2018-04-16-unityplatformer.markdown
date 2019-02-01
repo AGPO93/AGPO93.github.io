@@ -12,7 +12,7 @@ carousel:
 abstract: Featuring combat system, AI, and more
 ---
 #### Unity Platformer
-
+<br>
 3D platformer game developed in Unity.
 
 So far it features a player that can run, jump, and attack, power-ups, enemies that patrol specific areas, attack, and also spawn smaller enemies when they die.

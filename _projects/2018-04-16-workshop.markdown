@@ -14,6 +14,7 @@ carousel:
 abstract: Made in Unity for a Game Jam
 ---
 #### Workshop
+<br>
 Workshop is a 2D multiplayer game that I made working in collaboration with a friend for a 4 day cyber security game jam hosted by PlayWest in May 2017.
 
 In this game, the objective is to repair as many laptops as possible, by placing it in the right workstation and successfully completing a minigame to get rid of the issue. It's a possibility that laptops have more than one thing wrong with them, in which case you'd have to complete multiple minigames.
