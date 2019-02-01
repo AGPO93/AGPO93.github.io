@@ -3,7 +3,7 @@ layout: project
 title: "Open World Streaming System"
 date: 2019-01-28 16:54:46
 tools: Unity, XML
-img: openworld1.jpg
+img: openworldtitle1.jpg
 thumb: quake_thumb.jpg
 carousel:
 - openworld/openworld1.jpg
