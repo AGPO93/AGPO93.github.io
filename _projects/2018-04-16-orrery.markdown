@@ -3,6 +3,8 @@ layout: project
 title:  "Orrery"
 date: 2016-10-15 16:54:46
 tools: Autodesk Maya
+categories:
+- project
 img: orrery1.jpg
 thumb: quake_thumb.jpg
 carousel:
