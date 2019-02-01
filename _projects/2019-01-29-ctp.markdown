@@ -20,4 +20,4 @@ Learn to code in Python by creating behaviours for the NAO robot and complete di
 
 This project was chosen as one of the best in my course, and I got the opportunity to showcase it at an open event on January 2019 at the Colston Hall in Bristol.
 
-![alt text](https://github.com/AGPO93/AGPO93.github.io/tree/master/assets/img/project/ctp2.jpg "Colston Hall Showcase")
+![image:](https://github.com/AGPO93/AGPO93.github.io/tree/master/assets/img/project/ctp2.jpg)
