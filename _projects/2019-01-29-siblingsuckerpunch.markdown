@@ -6,7 +6,7 @@ tools: Unity
 img: ss1.jpg
 thumb: quake_thumb.jpg
 carousel:
-- ss/s5.jpg
+- ss/ss5.jpg
 - ss/ss2.jpg
 - ss/ss3.jpg
 - ss/ss4.jpg
