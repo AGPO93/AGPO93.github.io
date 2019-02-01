@@ -1,7 +1,7 @@
 ---
 layout: project
-title:  "Sibling Suckerpunch"
-date:   2019-01-27 16:54:46
+title: "Sibling Suckerpunch"
+date: 2019-01-27 16:54:46
 tools: Unity
 img: ss1.jpg
 thumb: quake_thumb.jpg
