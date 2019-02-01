@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Python Learning Tool"
-date: 2019-01-31 16:54:46
+date: 2018-10-01 16:54:46
 tools: Python, NAO robot, NAOqi
 img: ctp1.jpg
 thumb: quake_thumb.jpg
