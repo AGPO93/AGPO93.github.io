@@ -25,3 +25,5 @@ This project was chosen as one of the best in my course, and I got the opportuni
 ![local directory](E:\AGPO93.github.io\assets\img\project\ctp2.jpg)
 
 ![githubwebsite](https://github.com/AGPO93/AGPO93.github.io/blob/master/assets/img/project/ctp2.jpg)
+
+[![Image from Gyazo](https://i.gyazo.com/cf41aef181f7b758c60b0b4c930ad1c2.png)](https://gyazo.com/cf41aef181f7b758c60b0b4c930ad1c2)
