@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "C++ Minesweeper"
-date: 2017-01-19 16:54:46
+date: 2016-12-31 16:54:46
 tools: C++
 img: minesweepertitle.jpg
 thumb: quake_thumb.jpg
