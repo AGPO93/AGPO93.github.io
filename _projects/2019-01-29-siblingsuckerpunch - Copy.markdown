@@ -1,0 +1,17 @@
+---
+layout: project
+title: "Survival Snake"
+date: 2017-01-01 16:54:46
+tools: C++, ASGE
+img: snaketitle.jpg
+thumb: quake_thumb.jpg
+carousel:
+- snake/snake1.jpg
+- snake/snake2.jpg
+abstract: C++ custom version of the game Snake
+---
+#### Snake
+<br>
+Using C++ and the OpenGL based framework ASGE, I made a slightly different version of the classic Snake game. In my version of Snake, the objective is to survive for as long as possible by avoiding the obstacles. 
+
+* insert gif *
