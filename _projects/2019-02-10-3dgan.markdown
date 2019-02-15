@@ -1,11 +1,11 @@
 ---
 layout: project
 title: "3D GAN for Asset Generation"
-date: 2019-02-10 16:54:46
+date: 2000-02-10 16:54:46
 tools: Python, Tensorflow
 img: gantitle.jpg
 thumb: quake_thumb.jpg
-abstract: Work in progress
+abstract: Work in progress. Coming soon!
 ---
 #### Work in progress
 <br>

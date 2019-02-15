@@ -1,11 +1,11 @@
 ---
 layout: project
 title: "DirectX 11 RTS System"
-date: 2019-01-27 16:54:46
+date: 2000-01-27 16:54:46
 tools: C++, DirectX 11
 img: directxtitle.jpg
 thumb: quake_thumb.jpg
-abstract: Work in progress
+abstract: Work in progress. Coming soon!
 ---
 #### Work in progress
 <br>
