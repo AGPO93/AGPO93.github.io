@@ -10,7 +10,7 @@ carousel:
 - ss/ss2.jpg
 - ss/ss3.jpg
 - ss/ss4.jpg
-abstract: Global Game Jam 2019 WINNER!
+abstract: \n Global Game Jam 2019 WINNER!
 ---
 #### Global Game Jam 2019 WINNER!
 <br>
