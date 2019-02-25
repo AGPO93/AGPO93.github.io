@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "DirectX 11 RTS System"
-date: 2019-01-27 16:54:46
+date: 2018-12-15 16:54:46
 tools: C++, DirectX 11
 img: directxtitle.jpg
 thumb: quake_thumb.jpg
