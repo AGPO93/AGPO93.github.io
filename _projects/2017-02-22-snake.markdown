@@ -13,3 +13,5 @@ abstract: C++ custom version of the game Snake
 #### C++ custom version of the game Snake
 <br>
 Using C++ and the OpenGL based framework ASGE, I made a slightly different version of the classic Snake game. In my version of Snake, the objective is to survive for as long as possible by avoiding the obstacles.
+
+[![Snake Demo](https://i.gyazo.com/d95f3e90b03db901f18a05f4d38e2c9b.gif)](https://gyazo.com/d95f3e90b03db901f18a05f4d38e2c9b)

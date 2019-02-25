@@ -2,7 +2,7 @@
 layout: project
 title: "Sibling Suckerpunch"
 date: 2019-01-27 16:54:46
-tools: Unity
+tools: Unity, C#
 img: ss1.jpg
 thumb: quake_thumb.jpg
 carousel:
