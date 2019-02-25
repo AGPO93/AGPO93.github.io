@@ -1,0 +1,24 @@
+---
+layout: project
+title: "Kachiku 64"
+date: 2019-02-25 16:54:46
+tools: Unity, C#
+img: playwesttitle.jpg
+thumb: quake_thumb.jpg
+carousel:
+- kachiku/kachiku1.jpg
+- kachiku/kachiku2.jpg
+- kachiku/kachiku3.jpg
+abstract: One of Playwest's APIs
+---
+#### One of Playwest's APIs
+<br>
+Work in progress!
+
+Kachiku 64 is a game developed by PlayWest (UWE's student powered games studio). It supports 64 player multiplayer game featuring 4 different game modes, and a mode that includes all game modes in the same map.
+
+As a cohort of more than 30 people (split in 6 dev teams), our goal was to work with the existing codebase to implement new functionalities, fix bugs, etc.
+
+Our team was given the tasks of implementing a new game mode, a new power-up, and fixing the level editor tool.
+
+I'm fulfilling two roles for this project: <b>Project Manager and Gameplay Programmer</b>, and my responsibilities entail communicating with other dev teams, delegating tasks and ensuring we deliver them on time, sourcing assets from other dev teams, and of course, the implementation of tasks (as a Gameplay Programmer).  
