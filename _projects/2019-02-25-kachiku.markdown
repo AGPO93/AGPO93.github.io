@@ -3,7 +3,7 @@ layout: project
 title: "Kachiku 64"
 date: 2019-02-25 16:54:46
 tools: Unity, C#
-img: playwesttitle.jpg
+img: kachikutitle.jpg
 thumb: quake_thumb.jpg
 carousel:
 - kachiku/kachiku1.jpg
