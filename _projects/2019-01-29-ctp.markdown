@@ -18,6 +18,6 @@ Take a look at an early stages [prototype](https://www.youtube.com/watch?v=2YFnf
 
 Learn to code in Python by creating behaviours for the NAO robot and complete different tasks by utilising NAO's capabilities in order to obtain points and progress within this gamified environment.
 
-This project was chosen as one of the best in my course, and I got the opportunity to showcase it at an open event on January 2019 at the Colston Hall in Bristol.
+This project's prototype was <b>chosen as one of the best in the Faculty</b>, and I got the opportunity to showcase it at an open event on January 2019 at the Colston Hall in Bristol.
 
 <br>[![Colston Hall Showcase Event](https://i.gyazo.com/1e54fd06cba1c8c6465184485c3882a9.jpg)](https://gyazo.com/1e54fd06cba1c8c6465184485c3882a9)

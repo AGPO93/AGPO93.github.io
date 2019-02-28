@@ -20,4 +20,4 @@ You're helping a random celebrity steal an Oscar, and your objective is to drive
 
 [![Destructible windows](https://i.gyazo.com/e5d3ec69494b308602d07dc3864cf827.gif)](https://gyazo.com/e5d3ec69494b308602d07dc3864cf827)
 
-I fulfilled the role of Gameplay Programmer and Game Designer - I worked specifically on the camera system, and developed my own car behaviour/controller using wheel colliders. Not the prettiest car model, but it gets the job done!
+I fulfilled the role of Gameplay Programmer and Game Designer - I worked specifically on the <b>camera system</b>, and developed <b>my own car behaviour/controller</b> using wheel colliders. Not the prettiest car model, but it got the job done!

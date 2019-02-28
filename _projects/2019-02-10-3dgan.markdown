@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "3D GAN for Asset Generation"
+title: "Generative Adversarial Network for 3D assets generation"
 date: 2019-02-10 16:54:46
 tools: Python, Tensorflow
 img: gantitle.jpg
@@ -9,4 +9,4 @@ abstract: Work in progress. Coming soon!
 ---
 #### Work in progress
 <br>
-Currently working on a 3D Generative Adversarial Network for asset generation using the library Tensorflow and Python 3.6.
+Currently working on a Generative Adversarial Network for 3D assets generation using the library Tensorflow and Python 3.6.
