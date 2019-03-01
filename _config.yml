@@ -40,8 +40,6 @@ collections:
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/agpo93/
-  - title: facebook
-    url: https://www.facebook.com/andres.pereiraorco
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
