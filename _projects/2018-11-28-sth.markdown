@@ -7,11 +7,11 @@ img: sthtitle.jpg
 thumb: quake_thumb.jpg
 carousel:
 - sth/sth1.jpg
-abstract: Made for a 2-Week long, randomized theme Gamejam
+abstract: Another PlayWest API
 ---
-#### Made for a 2-Week long, randomized theme Gamejam
+#### Another PlayWest API
 <br>
-Super Trash Heroes is another of PlayWest's APIs, and for this Gamejam we had to develop a new game using assets from the original game.
+Super Trash Heroes is another of PlayWest's APIs, and for this two week Gamejam we had to develop a new game using assets from the original game.
 
 We decided to make it a multiplayer Brawler, in which one team's objective is to recycle whilst the other team pollutes the city.
 
