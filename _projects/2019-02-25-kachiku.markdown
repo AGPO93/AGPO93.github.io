@@ -9,9 +9,9 @@ carousel:
 - kachiku/kachiku1.jpg
 - kachiku/kachiku2.jpg
 - kachiku/kachiku3.jpg
-abstract: One of Playwest's APIs
+abstract: One of Playwest's IPs
 ---
-#### One of Playwest's APIs
+#### One of Playwest's IPs
 <br>
 Work in progress!
 
