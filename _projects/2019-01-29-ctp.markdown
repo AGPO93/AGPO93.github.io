@@ -1,23 +1,23 @@
 ---
 layout: project
-title: "Python Learning Tool"
+title: "Visual Programming Language for the NAO robot"
 date: 2018-10-01 16:54:46
-tools: Python, NAO robot, NAOqi
+tools: Python, JavaScript, NAO robot, NAOqi
 img: ctp1.jpg
 thumb: quake_thumb.jpg
 carousel:
 - ctp/ctp1.jpg
 - ctp/ctp3.jpg
-abstract: Learn Python through human-robot interactions
+abstract: Create behaviours for NAO using visual coding blocks
 ---
-#### Learn Python through human-robot interactions
-
-<br><b>In progress.</b>
-
-Take a look at an early stages [prototype](https://www.youtube.com/watch?v=2YFnfZBKT6Q) of this project.
-
-Learn to code in Python by creating behaviours for the NAO robot and complete different tasks by utilising NAO's capabilities in order to obtain points and progress within this gamified environment.
+#### Create behaviours for NAO using visual coding blocks
 
 This project's prototype was <b>chosen as one of the best in the Faculty</b>, and I got the opportunity to showcase it at an open event on January 2019 at the Colston Hall in Bristol.
 
 <br>[![Colston Hall Showcase Event](https://i.gyazo.com/1e54fd06cba1c8c6465184485c3882a9.jpg)](https://gyazo.com/1e54fd06cba1c8c6465184485c3882a9)
+
+Take a look at an early stages [prototype](https://www.youtube.com/watch?v=2YFnfZBKT6Q) of this project. ###### get rid of
+
+I built a Visual Programming Language (VPL) using the JavaScript library Blockly, to create behaviours for the NAO robot. The idea is that by using visual coding blocks, inexperienced programmers can learn basic concepts of programming, whilst receiving feedback from the robot running the behaviours.
+
+Take a look at a [demo](https://www.youtube.com/watch?v=FKX3VJ4p2M4) video I made for this project.
