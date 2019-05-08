@@ -6,7 +6,7 @@ tools: Unreal Engine 4
 img: leveldesigntitle.jpg
 thumb: quake_thumb.jpg
 carousel:
-- leveldesign/EnemyPic.png
+- leveldesign/EnemyPic.PNG
 - leveldesign/EnemyShot.png
 - leveldesign/enemydestroyed.png
 - leveldesign/Powerup.PNG
