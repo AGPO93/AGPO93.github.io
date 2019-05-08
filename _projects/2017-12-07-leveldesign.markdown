@@ -6,11 +6,11 @@ tools: Unreal Engine 4
 img: leveldesigntitle.jpg
 thumb: quake_thumb.jpg
 carousel:
-- leveldesign/enemyPic.png
+- leveldesign/EnemyPic.png
 - leveldesign/EnemyShot.png
 - leveldesign/enemydestroyed.png
-- leveldesign/Powerup.png
-- leveldesign/Fire.png
+- leveldesign/Powerup.PNG
+- leveldesign/Fire.PNG
 - leveldesign/MultipleEnemies.png
 
 abstract: Used design principles and implemented game mechanics
