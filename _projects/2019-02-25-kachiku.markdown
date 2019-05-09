@@ -1,24 +1,37 @@
 ---
 layout: project
-title: "Kachiku 64"
+title: "Kachiku64"
 date: 2019-02-25 16:54:46
 tools: Unity, C#
-img: kachikutitle.jpg
+img: kachikutitle.png
 thumb: quake_thumb.jpg
 carousel:
 - kachiku/kachiku1.jpg
 - kachiku/kachiku2.jpg
 - kachiku/kachiku3.jpg
-abstract: One of Playwest's IPs
+abstract: 64 players party game
 ---
-#### One of Playwest's IPs
+#### 64 players party game
 <br>
-Work in progress!
+Here is a [trailer](https://youtu.be/Zq-ChMaI4Wo) for the features my team and I developed for this project.
 
-Kachiku 64 is a game developed by PlayWest (UWE's student powered games studio). It supports 64 player multiplayer game featuring 4 different game modes, and a mode that includes all game modes in the same map.
+<h2>The Game</h2>
+Kachiku64 is a game developed by PlayWest (UWE's in-house games studio). It supports 64 player multiplayer game featuring 4 different game modes. In a normal play session, all 4 modes are played, followed by a final bout that includes all modes in the same map.
 
+<h2>The Project</h2>
 As a cohort of more than 30 people (split in 6 dev teams), our goal was to work with the existing codebase to implement new functionalities, fix bugs, etc.
 
-Our team was given the tasks of implementing a new game mode, a new power-up, and fixing the level editor tool.
+Several development teams were made, and our team was given the tasks of implementing a new game mode, a new power-up, and improving the level editor tool.
 
-I'm fulfilling two roles for this project: <b>Project Manager and Gameplay Programmer</b>, and my responsibilities entail communicating with other dev teams, delegating tasks and ensuring we deliver them on time, sourcing assets from other dev teams, and of course, the implementation of tasks (as a Gameplay Programmer).  
+<h2>My Role & Contibutions</h2>
+For this 30 people group project I mainly focused on the creation of a new game mode involving the tractor vehicle, the destruction derby. It consists of a race where the players do laps in a race track in order to gain different boosts such as speed and additional bombs, with the goal of being the one last standing.
+
+My contributions to this project were mainly in the destruction derby game mode, and in the vehicle behaviours; I worked on implementing systems such as the checkpoints, the speed boost and custom tractor bombs, and designing the game mode, and maps.
+
+[![Tractors](https://i.gyazo.com/75971913a01a56948265f4b574d281a4.png)](https://gyazo.com/75971913a01a56948265f4b574d281a4)
+
+[![Speed boost](https://i.gyazo.com/d0631514eb95b09ab84704a2bb0aa94f.png)](https://gyazo.com/d0631514eb95b09ab84704a2bb0aa94f)
+
+[![Checkpoints](https://i.gyazo.com/fd03981f6a1190d4b55b542732886f74.png)](https://gyazo.com/fd03981f6a1190d4b55b542732886f74)
+
+Additionally, I fulfilled a project management role throughout the development of the project, which entailed organising my dev team, delegating tasks, and rendering communication with other dev teams.
