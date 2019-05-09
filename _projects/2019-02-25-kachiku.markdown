@@ -13,7 +13,7 @@ abstract: 64 players party game
 ---
 #### 64 players party game
 <br>
-Here is a [trailer](https://youtu.be/Zq-ChMaI4Wo) for the features my team and I developed for this project.
+Here is a [trailer](https://youtu.be/Zq-ChMaI4Wo) showing the features my team and I developed for this project.
 
 <h2>The Game</h2>
 Kachiku64 is a game developed by PlayWest (UWE's in-house games studio). It supports 64 player multiplayer game featuring 4 different game modes. In a normal play session, all 4 modes are played, followed by a final bout that includes all modes in the same map.
@@ -29,9 +29,12 @@ For this 30 people group project I mainly focused on the creation of a new game 
 My contributions to this project were mainly in the destruction derby game mode, and in the vehicle behaviours; I worked on implementing systems such as the checkpoints, the speed boost and custom tractor bombs, and designing the game mode, and maps.
 
 [![Tractors](https://i.gyazo.com/75971913a01a56948265f4b574d281a4.png)](https://gyazo.com/75971913a01a56948265f4b574d281a4)
+Tractor vehicle
 
 [![Speed boost](https://i.gyazo.com/d0631514eb95b09ab84704a2bb0aa94f.png)](https://gyazo.com/d0631514eb95b09ab84704a2bb0aa94f)
+Speed boost
 
 [![Checkpoints](https://i.gyazo.com/fd03981f6a1190d4b55b542732886f74.png)](https://gyazo.com/fd03981f6a1190d4b55b542732886f74)
+Checkpoint and finish line
 
 Additionally, I fulfilled a project management role throughout the development of the project, which entailed organising my dev team, delegating tasks, and rendering communication with other dev teams.
