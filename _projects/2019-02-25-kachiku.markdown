@@ -15,6 +15,8 @@ abstract: 64 players party game
 <br>
 Here is a [trailer](https://youtu.be/Zq-ChMaI4Wo) showing the features my team and I developed for this project.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zq-ChMaI4Wo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <h2>The Game</h2>
 Kachiku64 is a game developed by PlayWest (UWE's in-house games studio). It supports 64 player multiplayer game featuring 4 different game modes. In a normal play session, all 4 modes are played, followed by a final bout that includes all modes in the same map.
 
