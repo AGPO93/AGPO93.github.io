@@ -5,10 +5,6 @@ date: 2019-02-10 16:54:46
 tools: Python, Tensorflow
 img: openworldfeatured.png
 thumb: quake_thumb.jpg
-carousel:
-- gan/gan1.png
-- gan/gan2.png
-- gan/gan3.png
 abstract: It can create all sorts of 3D assets. In this case: sofas
 ---
 #### It can create all sorts of 3D assets. In this case: sofas
