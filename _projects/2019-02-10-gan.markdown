@@ -1,14 +1,13 @@
 ---
 layout: project
-title: "Generative Adversarial Network for 3D asset generation"
+title: "3D GAN"
 date: 2019-02-10 16:54:46
-tools: Python, Tensorflow
+tools: Unity, C#, XML
 img: gantitle.png
 thumb: quake_thumb.jpg
 carousel:
-- gan/gan1.png
-- gan/gan2.png
-- gan/gan3.png
+- openworld/openworld1.jpg
+- openworld/openworld2.jpg
 abstract: It can create all sorts of 3D assets. In this case: sofas
 ---
 #### It can create all sorts of 3D assets. In this case: sofas
