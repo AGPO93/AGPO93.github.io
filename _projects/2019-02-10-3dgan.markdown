@@ -3,7 +3,7 @@ layout: project
 title: "Generative Adversarial Network for 3D asset generation"
 date: 2019-02-10 16:54:46
 tools: Python, Tensorflow
-img: gantitle.png
+img: openworldfeatured.png
 thumb: quake_thumb.jpg
 carousel:
 - gan/gan1.png
@@ -21,4 +21,3 @@ This Generative Advesarial Network (GAN) creates 3D assets making use of the Ten
 
 This GAN, in its original state, outputs models that can easily be identified as sofas, as many of the aspects that one would expect in this object are present in the model, such as arm rests, back, and the seats, however, after training it for long periods, the discriminator loss plateaus at a value of 0 or less, whilst the generator loss does the opposite and spikes at avalue of 65 and also plateaus. After the losses plateau, the quality of the model regresses significantly. After several attempts, this scenario seems to present itself close to the 2000 epochs mark. 
 Research into the issue indicates that it is likely that the problem causing the vanishing gradients and explosive gradients is that the generator’s layers are not being normalised.
-
