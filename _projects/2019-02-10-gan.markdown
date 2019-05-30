@@ -3,7 +3,7 @@ layout: project
 title: "3D GAN"
 date: 2019-02-10 16:54:46
 tools: Unity, C#, XML
-img: ctp1.jpg
+img: gantitle.png
 thumb: quake_thumb.jpg
 carousel:
 - openworld/openworld1.jpg
