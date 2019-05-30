@@ -5,6 +5,9 @@ date: 2019-02-10 16:54:46
 tools: Python, Tensorflow
 img: openworldfeatured.png
 thumb: quake_thumb.jpg
+carousel:
+- openworld/openworld1.jpg
+- openworld/openworld2.jpg
 abstract: It can create all sorts of 3D assets. In this case: sofas
 ---
 #### It can create all sorts of 3D assets. In this case: sofas
