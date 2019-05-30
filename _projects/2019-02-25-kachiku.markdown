@@ -29,14 +29,18 @@ Several development teams were made, and our team was given the tasks of impleme
 For this 30 people group project I mainly focused on the creation of a new game mode involving the tractor vehicle, the destruction derby. It consists of a race where the players do laps in a race track in order to gain different boosts such as speed and additional bombs, with the goal of being the one last standing.
 
 My contributions to this project were mainly in the destruction derby game mode, and in the vehicle behaviours; I worked on implementing systems such as the checkpoints, the speed boost and custom tractor bombs, and designing the game mode, and maps.
+<br>
 
 [![Tractors](https://i.gyazo.com/75971913a01a56948265f4b574d281a4.png)](https://gyazo.com/75971913a01a56948265f4b574d281a4)
-<br>Tractor vehicle
+<br><i>Tractor vehicle</i>
+<br>
 
 [![Speed boost](https://i.gyazo.com/d0631514eb95b09ab84704a2bb0aa94f.png)](https://gyazo.com/d0631514eb95b09ab84704a2bb0aa94f)
-<br>Speed boost
+<br><i>Speed boost</i>
+<br>
 
 [![Checkpoints](https://i.gyazo.com/fd03981f6a1190d4b55b542732886f74.png)](https://gyazo.com/fd03981f6a1190d4b55b542732886f74)
-<br>Checkpoint and finish line
+<br><i>Checkpoint and finish line</i>
+<br>
 
 Additionally, I fulfilled a project management role throughout the development of the project, which entailed organising my dev team, delegating tasks, and rendering communication with other dev teams.
