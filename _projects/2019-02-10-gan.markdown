@@ -1,16 +1,17 @@
 ---
 layout: project
-title: "3D GAN"
+title: "Generative Adversarial Network for 3D asset generation"
 date: 2019-02-10 16:54:46
-tools: Unity, C#, XML
+tools: Python, Tensorflow
 img: gantitle.png
 thumb: quake_thumb.jpg
 carousel:
-- openworld/openworld1.jpg
-- openworld/openworld2.jpg
-abstract: Asset streaming in run-time
+- gan/gan1.png
+- gan/gan2.png
+- gan/gan3.png
+abstract: It can create all sorts of 3D assets. In this case: sofas
 ---
-#### Asset streaming in run-time
+#### It can create all sorts of 3D assets. In this case: sofas
 <br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H3HtPm07t9Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
