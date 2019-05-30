@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "3D GAN"
+title: "Generative Adversarial Network for 3D asset generation"
 date: 2019-02-10 16:54:46
 tools: Unity, C#, XML
 img: gantitle.png
