@@ -9,7 +9,7 @@ carousel:
 - gan/gan1.png
 - gan/gan2.png
 - gan/gan3.png
-abstract: It can create all sorts of 3D assets
+abstract: Outputs 3D assets
 ---
 #### It can create all sorts of 3D assets. In this case: sofas
 <br>
