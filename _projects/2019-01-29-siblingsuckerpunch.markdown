@@ -18,6 +18,8 @@ Reminiscent of fighting with your brother, in this 2.5D 2-player brawler you nee
 
 Get an executable [here](https://globalgamejam.org/2019/games/sibling-suckerpunch).
 
+Have a look at the source code [here](https://github.com/AGPO93/SSuckerPunch).
+
 I worked on this project as a part of a team of 5 for the Global Game Jam 2019, which we <b>WON!</b>
 
 I fulfilled the role of programmer, and worked on in-game events, particle systems, dialogues, cutscenes, and other features that helped polish the game.

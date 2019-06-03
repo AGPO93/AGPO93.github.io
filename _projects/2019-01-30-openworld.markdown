@@ -21,6 +21,8 @@ As shown below, only the surrounding areas to the players get loaded and when th
 
 I created this low poly world to demonstrate this system; it currently holds static assets such as trees and rocks, but it also spawns NPCs that patrol areas, follow, and attack the player.
 
+Have a look at the source code [here](https://github.com/AGPO93/OpenWorld).
+
 <br>[![Open World System Demo](https://i.gyazo.com/ea19ae122aaeed3cb68843e99cc508d7.gif)](https://gyazo.com/ea19ae122aaeed3cb68843e99cc508d7)
 
 <br>

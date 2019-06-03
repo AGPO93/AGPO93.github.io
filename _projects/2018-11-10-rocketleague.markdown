@@ -16,3 +16,5 @@ The theme of this Gamejam was remaking a modern day game into an Atari 2600 vers
 We decided to make a 70s version of Rocket League, featuring 1v1 and 2v2 modes.
 
 For this project I had the role of Gameplay Programmer, and worked on the 2D car controller and the overall game design.
+
+Have a look at the source code for this game [here](https://github.com/AGPO93/RocketLeague2600).
