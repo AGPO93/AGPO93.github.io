@@ -18,3 +18,5 @@ We decided to make a 70s version of Rocket League, featuring 1v1 and 2v2 modes.
 For this project I had the role of Gameplay Programmer, and worked on the 2D car controller and the overall game design.
 
 Have a look at the source code for this game [here](https://github.com/AGPO93/RocketLeague2600).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iTspgQF1_xg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

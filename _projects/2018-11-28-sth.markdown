@@ -15,6 +15,6 @@ Super Trash Heroes is another of PlayWest's IPs, and for this two week Gamejam w
 
 We decided to make it a multiplayer Brawler, in which one team's objective is to recycle whilst the other team pollutes the city.
 
-[![Recycling Demo](https://i.gyazo.com/bff66fae12d33c41abf0b979e33feb04.gif)](https://gyazo.com/bff66fae12d33c41abf0b979e33feb04)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FMv9MjNIv-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I worked as a Gameplay Programmer and Designer in this project.
