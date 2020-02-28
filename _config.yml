@@ -5,7 +5,7 @@ title: Andrés Pereira
 description: "Game Developer Portfolio"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/" #important: start with /
-url: "https://AGPO93.github.io/"
+url: "https://andrespereira.github.io/"
 
 # Build settings
 highlighter: rouge
