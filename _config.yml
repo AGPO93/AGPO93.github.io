@@ -55,8 +55,8 @@ email: AGPO93@gmail.com
 # Members information. Shown on About page.
 members:
   - name: Andrés Pereira
-    position: Games Technology Student
-    text: University of the West of England, Bristol
+    position: Game Developer
+    text: Currently working at Scientific Games, Bristol
     img: profileAndres.jpg
     social:
       - title: envelope #use for email address
@@ -65,4 +65,4 @@ members:
         url: https://www.linkedin.com/in/agpo93/
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Game developer with interest in Gameplay Programming, AI, and Game Design"
+about: "Game Developer with interest in Gameplay Programming, AI, and Game Design"
