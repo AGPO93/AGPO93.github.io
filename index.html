@@ -1,31 +1,14 @@
-<div id="headerwrap">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h1>Andrés Pereira</h1>
-                <br>
-                <img src="{{ "/assets/img/openworldhome.jpg" | prepend: site.baseurl }}" class="img-responsive">
-                <br>
-                <hr>
-				<h3>I'm an Associate Developer at Scientific Games, and a BSc Games Technology graduate from the University of the West of England.</h3>
-				jssjsjjfjhfdikhdiqu
+---
+layout: index
+title: Home
+permalink: /
+---
 
+<div class="container mtb">
+    <div class="row">
+         <div class="col-lg-8 col-lg-offset-2">
+        </div>
+    </div><! --/row -->
+</div><! --/container -->
 
-                <h3>Take a look at the last 2 titles I've worked on:</h3>
-                <h3><a href="https://www.sggaming.com/Games/SCIENTIFIC-GAMES/class3/premium-Games/bier-haus-oktoberfest-18346">Bier Haus Oktoberfest</a></h3>
-                <h3><a href="https://www.sgdigital.com/opengaming/game-88-fortunes-megaways.html">88 Fortunes Megaways</a></h3>
-                <h3>Or head to my <a href="https://agpo93.github.io/portfolio/">portfolio</a> and check out my personal projects.</h3>
-                
-                <hr>
-                <br>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 himg">
-                <!-- <img src="{{ "/assets/img/openworldhome.jpg" | prepend: site.baseurl }}" class="img-responsive"> -->
-                <br>
-                <br>
-                <h3>Showreel of some of my projects</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ESct1ysOw3o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div><!-- /row -->
-    </div> <!-- /container -->
-</div><!-- /headerwrap -->
+{% include portfolio.html title="Latest Projects" limit=20 %}
