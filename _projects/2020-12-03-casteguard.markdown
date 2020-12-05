@@ -8,7 +8,7 @@ thumb: quake_thumb.jpg
 carousel:
 - guard/guard1.png
 - guard/guard2.png
-abstract: C++ classes in UE4
+abstract: All components made with C++ classes
 ---
 #### Work in progress
 <br>
