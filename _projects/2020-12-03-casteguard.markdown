@@ -10,14 +10,14 @@ carousel:
 - guard/guard2.png
 abstract: All components made with C++ classes
 ---
-#### Work in progress
+#### All components made with C++ classes
 <br>
 
-The purpose of this project was to familiarise myself with the interactions between C++ classes and blueprints, and the features that it displays were made using C++.
+The purpose of this project was to familiarise myself with the interactions between C++ classes and blueprints.
 
-Some of these features are collisions, player and camera movement, spawning of objects and NPCs, pickups, HUD, and animations. 
+This project features: collisions, player and camera movement, combat system, spawning of objects and NPCs, pickups, HUD, and a pause menu with saving and loading functionality. 
 
 <b>Have a look at the source code [here](https://github.com/AGPO93/CastleGuard). </b>
 
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/byl6-G_7kJg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x7NnMV5RNTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
