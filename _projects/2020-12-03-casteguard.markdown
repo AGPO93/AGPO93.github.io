@@ -7,7 +7,8 @@ img: guardTitle.png
 thumb: quake_thumb.jpg
 carousel:
 - guard/guard1.png
-- guard/guard2.png
+- guard/guard3.png
+- guard/guard4.png
 abstract: All components made with C++ classes
 ---
 #### All components made with C++ classes
