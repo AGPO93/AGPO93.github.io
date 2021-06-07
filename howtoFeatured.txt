@@ -1,3 +1,0 @@
-Make a Featured.html (where portfolio.html is)
-Make a Featured tag within each project you want to show in home page
-Make an if statement within -> if project.featured, include it in home page
