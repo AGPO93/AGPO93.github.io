@@ -1,0 +1,18 @@
+---
+layout: project
+title: "IGI: Origins"
+date: 2022-12-05 16:54:46
+tools: C++, Unreal Engine 4/5
+img: igiorigins.jpg
+thumb: quake_thumb.jpg
+carousel:
+- igi/igi1.jpg
+abstract: Currently working as Intermediate Programmer at AntiMatter Games
+---
+#### Currently working as Intermediate Programmer at AntiMatter Games
+<br>
+
+Have a look at our latest trailer:
+
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4SHaDwa1J0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
