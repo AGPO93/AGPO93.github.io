@@ -1,18 +1,21 @@
 ---
 layout: project
 title: "IGI: Origins"
-date: 2022-12-05 16:54:46
+date: 2023-01-01 16:54:46
 tools: C++, Unreal Engine 4/5
 img: igiorigins.jpg
 thumb: quake_thumb.jpg
 carousel:
 - igi/igi1.jpg
-abstract: Currently working as Intermediate Programmer at AntiMatter Games
+abstract: Stealth FPS game at Antimatter Games
 ---
-#### Currently working as Intermediate Programmer at AntiMatter Games
-<br>
-
-Have a look at our latest trailer:
-
+#### Stealth FPS game at Antimatter Games
 <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4SHaDwa1J0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+As an Intermediate Programmer at Antimatter Games from July 2021 to January 2023, I played a key role in the development of IGI Origins, a stealth FPS game using Unreal Engine and C++. I was entrusted with leading a specialized AI task force of four, focusing on elevating the game's AI system.
+
+In this capacity, my responsibilities expanded beyond programming tasks to encompass task delegation, regular updates, and acting as the primary point of contact for all AI-related matters.
+
+Throughout this period, I had the opportunity to contribute to both Gameplay and AI features, refining my skills in Unreal Engine and C++. This involved extensive work in debugging, writing documentation, and collaborating with multiple departments, showcasing a versatile and comprehensive approach to game development.
