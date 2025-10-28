@@ -1,0 +1,184 @@
+/* ===================== */
+/* Base layout */
+/* ===================== */
+body {
+  background-color: #0c0c0c;
+  color: #00ff9f;
+  font-family: "Courier New", monospace;
+  font-size: 16px;
+  margin: 0;
+  height: fit-content;
+}
+
+.bio {
+  max-width: 85vw;
+}
+
+/* ===================== */
+/* Header and navigation bar */
+/* ===================== */
+nav {
+  width: fit-content;
+  border-bottom: 1px dashed #00ff9f;
+  margin-bottom: 40px;
+}
+
+nav a {
+  color: #00ff9f;
+  text-decoration: none;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 3px;
+  display: inline-block;
+}
+
+/* ===================== */
+/* Terminal container */
+/* ===================== */
+#terminal {
+  /* width: fit-content; */
+  height: fit-content;
+  width: 100vw;
+  text-align: left;
+  padding: 40px;
+}
+
+/* ===================== */
+/* Project list styling */
+/* ===================== */
+.project {
+  border-bottom: 1px dashed #00ff9f;
+  margin-bottom: 1rem;
+  opacity: 0;
+  /* Slight downward offset for a smooth entrance */
+  transform: translateY(10px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.project.visible {
+  /* Fade in */
+  opacity: 1;
+  /* Slide into place */
+  transform: translateY(0);
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.project-header:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.project-details {
+  display: none;
+  /* Hidden by default (collapsed) */
+  padding: 10px;
+  /* Add inner spacing for content */
+}
+
+.project-details.open {
+  display: block;
+  /* Shown when toggled open */
+  animation: fadeIn 0.3s ease-in-out;
+  /* Smooth fade-in animation */
+}
+
+.project-line {
+  color: #00ff9f;
+}
+
+.project-line-accent {
+  color: #00ff9f;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* =========== */
+/* Skill cards */
+/* =========== */
+.skill-card {
+  font-family: "Courier New", Courier, monospace;
+  color: #00ff9f;
+  display: inline-block;
+  margin: 6px;
+  white-space: pre;
+  line-height: 1.2;
+}
+
+.skills-container {
+  margin-bottom: 20px;
+}
+
+/* ===================== */
+/* Blinking cursor effect */
+/* ===================== */
+.cursor {
+  display: inline-block;
+  animation: blink 1.0s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  50% {
+    opacity: 1;
+    /* Cursor visible first half of cycle */
+  }
+
+  50.01%,
+  100% {
+    opacity: 0;
+    /* Cursor hidden second half of cycle */
+  }
+}
+
+/* ===================== */
+/* ASCII */
+/* ===================== */
+.ascii-text {
+  font-family: 'Courier New', monospace;
+  line-height: 1;
+  transform-origin: top left;
+  transition: transform 0.2s ease;
+  max-width: none;
+  max-height: none;
+  width: auto;
+}
+
+/* ======= */
+/* Divider */
+/* ======= */
+.divider {
+  font-family: "Courier New", monospace;
+  color: #00ff9f;
+  /* preserves spacing */
+  white-space: pre;
+}
+
+/* For small screens (phones, narrow windows) */
+@media (max-width: 800px) {
+  .bio {
+    max-width: 85vw;
+  }
+
+  #terminal {
+    height: fit-content;
+    width: 100vw;
+    text-align: left;
+    padding: 15px;
+  }
+}

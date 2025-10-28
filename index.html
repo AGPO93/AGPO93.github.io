@@ -1,14 +1,44 @@
----
-layout: index
-title: Home
-permalink: /
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="container mtb">
-    <div class="row">
-         <div class="col-lg-8 col-lg-offset-2">
-        </div>
-    </div><! --/row -->
-</div><! --/container -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andres Pereira | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-{% include portfolio.html title="Portfolio" limit=20 %}
+<body>
+  <div id="terminal">
+    <nav>
+      <a href="index.html">[home]</a>
+      <a href="experience.html">experience</a>
+      <a href="contact.html">contact</a>
+    </nav>
+
+    <pre class="ascii-text">
+ █████╗ ███╗   ██╗██████╗ ██████╗ ███████╗███████╗    ██████╗ ███████╗██████╗ ███████╗██╗██████╗  █████╗ 
+██╔══██╗████╗  ██║██╔══██╗██╔══██╗██╔════╝██╔════╝    ██╔══██╗██╔════╝██╔══██╗██╔════╝██║██╔══██╗██╔══██╗
+███████║██╔██╗ ██║██║  ██║██████╔╝█████╗  ███████╗    ██████╔╝█████╗  ██████╔╝█████╗  ██║██████╔╝███████║
+██╔══██║██║╚██╗██║██║  ██║██╔══██╗██╔══╝  ╚════██║    ██╔═══╝ ██╔══╝  ██╔══██╗██╔══╝  ██║██╔══██╗██╔══██║
+██║  ██║██║ ╚████║██████╔╝██║  ██║███████╗███████║    ██║     ███████╗██║  ██║███████╗██║██║  ██║██║  ██║
+╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝    ╚═╝     ╚══════╝╚═╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
+    </pre>
+
+    <div class="bio">
+      <div class="divider"></div>
+      <h3 class="line">> Gameplay Engineer with 6+ years of experience working on AAA games with C++ and
+        Unreal Engine.</h3>
+      <h3 class="line">> Currently working on the MMORPG Ashes of Creations at Intrepid Studios.</h3>
+      <h3 class="line">> Passionate about Gameplay and AI systems.</h3>
+      <h3 class="line">> Based in Baltimore, MD. Authorized to work in the US.</h3>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+  <script src="divider.js"></script>
+
+</body>
+
+</html>
