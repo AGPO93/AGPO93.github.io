@@ -8,10 +8,19 @@ body {
   font-size: 16px;
   margin: 0;
   height: fit-content;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 .bio {
   max-width: 85vw;
+  white-space: normal;
+  word-wrap: break-word;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 /* ===================== */
@@ -21,6 +30,8 @@ nav {
   width: fit-content;
   border-bottom: 1px dashed #00ff9f;
   margin-bottom: 40px;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 nav a {
@@ -36,11 +47,15 @@ nav a {
 /* Terminal container */
 /* ===================== */
 #terminal {
-  /* width: fit-content; */
   height: fit-content;
-  width: 100vw;
+  width: 100%;
   text-align: left;
   padding: 40px;
+  /* ensures padding doesn’t increase total width */
+  box-sizing: border-box;
+
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 /* ===================== */
@@ -153,10 +168,10 @@ nav a {
   font-family: 'Courier New', monospace;
   line-height: 1;
   transform-origin: top left;
-  transition: transform 0.2s ease;
   max-width: none;
   max-height: none;
   width: auto;
+  display: block;
 }
 
 /* ======= */
@@ -173,6 +188,10 @@ nav a {
 @media (max-width: 800px) {
   .bio {
     max-width: 85vw;
+    white-space: normal;
+    word-wrap: break-word;
+    padding-bottom: 20px;
+    padding-top: 0px;
   }
 
   #terminal {

@@ -29,10 +29,10 @@ document.addEventListener("DOMContentLoaded", () => {
   startTypingSequence();
 
   // Auto open most recent project.
-  const firstProject = document.querySelectorAll(".project")[0];
-  if (firstProject) {
-    toggleProject(firstProject.querySelector(".project-header"), 0);
-  }
+  // const firstProject = document.querySelectorAll(".project")[0];
+  // if (firstProject) {
+  //   toggleProject(firstProject.querySelector(".project-header"), 0);
+  // }
 
   updateDividers();
 });
@@ -187,6 +187,8 @@ eventDispatcher.addEventListener("projectHeaderClicked", (e) => {
   if (e.detail?.opened && headerElement) {
     // Pass actual DOM element
     startTypingProjectLines(headerElement);
+
+    headerElement.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 });
 
@@ -201,8 +203,9 @@ window.addEventListener("DOMContentLoaded", scaleAsciiText);
 window.addEventListener("resize", scaleAsciiText);
 
 function scaleAsciiText() {
-  const ascii = document.querySelector(".ascii-text");
-  if (!ascii) {
+  const elements = document.querySelectorAll(".ascii-text");
+
+  if (elements.length === 0) {
     return;
   }
 
@@ -215,5 +218,7 @@ function scaleAsciiText() {
     scale = 0.9;
   }
 
-  ascii.style.transform = `scale(${scale})`;
+  elements.forEach(element => {
+    element.style.transform = `scale(${scale})`;
+  });
 }
