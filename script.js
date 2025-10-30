@@ -1,66 +1,61 @@
 const eventDispatcher = new EventTarget();
 
-const mainTypingSequence = [
-  { name: "mainText", selector: ".line", nextEvent: "finishedTypingMainText" },
-  { name: "projectHeaders", selector: ".project-header-text", nextEvent: "finishedTypingProjectHeaders" },
-  { name: "projectLines", selector: ".project-line", nextEvent: "finishedTypingProjectLines" },
+const typingSequence = [
+  // { name: "ascii", element: ".ascii-text", delay: 0 },
+  { name: "mainText", element: ".line", delay: 1 },
+  { name: "projectHeaders", element: ".project-header-text", delay: 1 }
 ];
-// Store cached data for each group
-const groups = {};
-const typingOrder = ["mainText", "projectHeaders"];
 
-const CHAR_TYPE_DELAY = 1;
-const LINE_TYPE_DELAY = 1;
+// Stores cached data for each group
+const cachedElementData = {};
+
+let currentDelay = 1;
 
 document.addEventListener("DOMContentLoaded", () => {
   // Cache all text and hide it initially.
-  mainTypingSequence.forEach(groupConfig => {
-    const elements = document.querySelectorAll(groupConfig.selector);
+  typingSequence.forEach(groupConfig => {
+    const elements = document.querySelectorAll(groupConfig.element);
     const texts = [];
+
     elements.forEach(element => {
       texts.push(element.textContent);
-      if (groupConfig.name !== "projectLines") {
-        element.textContent = "";
-      }
+      element.textContent = "";
     });
-    groups[groupConfig.name] = { elements, texts };
+
+    cachedElementData[groupConfig.name] = { elements, texts };
   });
 
-  startTypingSequence();
-
-  // Auto open most recent project.
-  // const firstProject = document.querySelectorAll(".project")[0];
-  // if (firstProject) {
-  //   toggleProject(firstProject.querySelector(".project-header"), 0);
-  // }
+  startTypingGroup(0);
 
   updateDividers();
+
+  const asciiElements = document.querySelectorAll(".ascii-text");
+  asciiElements.forEach(asciiElement => {
+    fadeIn(asciiElement, 2000);
+  });
 });
 
 /* ===================== */
 /* Typewriter effect */
 /* ===================== */
 
-function startTypingSequence(index = 0) {
-  // TODO - blinking cursor must be added to last text that is typed out. This must be dynamic.
-  // and it should be done in a way that we "move it around" from line to line. Maybe we can keep a ref to it somehow, so that
-  // we can remove it before we append it to another element.
-  if (index >= typingOrder.length) {
-    // const lastGroupName = typingOrder[typingOrder.length - 1];
-    // const lastGroup = groups[lastGroupName];
-    // const lastElement = lastGroup.elements[lastGroup.elements.length - 1];
-    // addBlinkingCursor(lastElement);
-
+function startTypingGroup(groupIndex) {
+  if (groupIndex >= typingSequence.length) {
     updateDividers();
     return;
   }
 
-  const current = typingOrder[index];
-  typeGroupSequentially(current, () => startTypingSequence(index + 1));
+  const targetGroup = typingSequence[groupIndex].name;
+  currentDelay = typingSequence[groupIndex].delay;
+  typeGroupSequentially(
+    targetGroup,
+    () => startTypingGroup(groupIndex + 1)
+  );
 }
 
+// Gets each group's cached data and starts text typing.
 function typeGroupSequentially(groupName, onComplete = null) {
-  const group = groups[groupName];
+  const group = cachedElementData[groupName];
   if (!group) {
     return;
   }
@@ -69,8 +64,8 @@ function typeGroupSequentially(groupName, onComplete = null) {
 
   function typeNext(index) {
     if (index >= elements.length) {
-
-      eventDispatcher.dispatchEvent(new CustomEvent(`finishedTyping_${groupName}`));
+      const eventName = `finishedTyping_${groupName}`;
+      eventDispatcher.dispatchEvent(new CustomEvent(eventName));
 
       if (onComplete) {
         onComplete();
@@ -83,7 +78,7 @@ function typeGroupSequentially(groupName, onComplete = null) {
     const text = texts[index];
 
     typeText(element, text, 0, false, () => {
-      setTimeout(() => typeNext(index + 1), LINE_TYPE_DELAY);
+      setTimeout(() => typeNext(index + 1), currentDelay);
     });
   }
 
@@ -93,7 +88,7 @@ function typeGroupSequentially(groupName, onComplete = null) {
 function typeText(element, text, i = 0, isLastLine = false, onComplete) {
   if (i < text.length) {
     element.textContent += text.charAt(i);
-    setTimeout(() => typeText(element, text, i + 1, isLastLine, onComplete), CHAR_TYPE_DELAY);
+    setTimeout(() => typeText(element, text, i + 1, isLastLine, onComplete), currentDelay);
   } else {
     if (onComplete) {
       onComplete();
@@ -116,7 +111,9 @@ function addBlinkingCursor(element) {
 function startTypingProjectLines(projectHeaderElement) {
   // Find the nearest .project container
   const projectContainer = projectHeaderElement.closest(".project");
-  if (!projectContainer) return;
+  if (!projectContainer) {
+    return;
+  }
 
   //Find all .project-line elements inside that project
   const linesForProject = projectContainer.querySelectorAll(".project-line");
@@ -136,7 +133,8 @@ function startTypingProjectLines(projectHeaderElement) {
 function typeGroupSequentiallySubset(groupName, elements, texts) {
   function typeNext(index) {
     if (index >= elements.length) {
-      eventDispatcher.dispatchEvent(new CustomEvent(`finishedTyping_${groupName}`));
+      const eventName = `finishedTyping_${groupName}`;
+      eventDispatcher.dispatchEvent(new CustomEvent(eventName));
       return;
     }
 
@@ -144,7 +142,7 @@ function typeGroupSequentiallySubset(groupName, elements, texts) {
     const text = texts[index];
 
     typeText(element, text, 0, false, () => {
-      setTimeout(() => typeNext(index + 1), LINE_TYPE_DELAY);
+      setTimeout(() => typeNext(index + 1), currentDelay);
     });
   }
 
@@ -162,11 +160,6 @@ function toggleProject(headerElement, projectIndex) {
     detail: { index: projectIndex, opened: isOpening, headerElement }
   }));
 
-  // Optional direct trigger (you can keep this OR rely on event listener)
-  if (isOpening) {
-    startTypingProjectLines(headerElement);
-  }
-
   updateDividers();
 }
 
@@ -182,10 +175,8 @@ function showProjects() {
 }
 
 eventDispatcher.addEventListener("projectHeaderClicked", (e) => {
-  // Retrieve header
   const headerElement = e.detail?.headerElement;
   if (e.detail?.opened && headerElement) {
-    // Pass actual DOM element
     startTypingProjectLines(headerElement);
 
     headerElement.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -222,3 +213,24 @@ function scaleAsciiText() {
     element.style.transform = `scale(${scale})`;
   });
 }
+
+function fadeIn(element, duration) {
+  let opacity = 0;
+  element.style.opacity = opacity;
+  element.style.display = "block"; // make sure it's visible
+
+  const startTime = performance.now();
+
+  function tick(currentTime) {
+    const elapsed = currentTime - startTime;
+    opacity = Math.min(elapsed / duration, 1);
+    element.style.opacity = opacity;
+
+    if (elapsed < duration) {
+      requestAnimationFrame(tick);
+    }
+  }
+
+  requestAnimationFrame(tick);
+}
+

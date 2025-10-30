@@ -172,6 +172,7 @@ nav a {
   max-height: none;
   width: auto;
   display: block;
+  opacity: 0;
 }
 
 /* ======= */
