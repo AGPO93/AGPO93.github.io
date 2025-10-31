@@ -136,6 +136,7 @@ nav a {
 
 .skills-container {
   margin-bottom: 20px;
+  opacity: 0;
 }
 
 /* ===================== */
@@ -183,6 +184,7 @@ nav a {
   color: #00ff9f;
   /* preserves spacing */
   white-space: pre;
+  opacity: 0;
 }
 
 /* For small screens (phones, narrow windows) */

@@ -1,7 +1,6 @@
 const eventDispatcher = new EventTarget();
 
 const typingSequence = [
-  // { name: "ascii", element: ".ascii-text", delay: 0 },
   { name: "mainText", element: ".line", delay: 1 },
   { name: "projectHeaders", element: ".project-header-text", delay: 1 }
 ];
@@ -27,11 +26,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   startTypingGroup(0);
 
+  // Update width after everything is loaded.
   updateDividers();
 
-  const asciiElements = document.querySelectorAll(".ascii-text");
-  asciiElements.forEach(asciiElement => {
-    fadeIn(asciiElement, 2000);
+  // Fade in our relevant elements. Temp animation until typewriter effect handles these.
+  [".ascii-text", ".skills-container", ".divider"].forEach(selector => {
+    document.querySelectorAll(selector).forEach(element => {
+      fadeIn(element, 2000);
+    });
   });
 });
 
