@@ -219,7 +219,7 @@ function scaleAsciiText() {
 function fadeIn(element, duration) {
   let opacity = 0;
   element.style.opacity = opacity;
-  element.style.display = "block"; // make sure it's visible
+  element.style.display = "block";
 
   const startTime = performance.now();
 

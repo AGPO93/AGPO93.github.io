@@ -88,17 +88,17 @@ nav a {
 }
 
 .project-details {
-  display: none;
   /* Hidden by default (collapsed) */
-  padding: 10px;
+  display: none;
   /* Add inner spacing for content */
+  padding: 10px;
 }
 
 .project-details.open {
-  display: block;
   /* Shown when toggled open */
-  animation: fadeIn 0.3s ease-in-out;
+  display: block;
   /* Smooth fade-in animation */
+  animation: fadeIn 0.3s ease-in-out;
 }
 
 .project-line {
@@ -152,13 +152,11 @@ nav a {
   0%,
   50% {
     opacity: 1;
-    /* Cursor visible first half of cycle */
   }
 
   50.01%,
   100% {
     opacity: 0;
-    /* Cursor hidden second half of cycle */
   }
 }
 
