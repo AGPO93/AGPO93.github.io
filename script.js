@@ -1,6 +1,7 @@
 const eventDispatcher = new EventTarget();
 
 const typingSequence = [
+  { name: "ascii", element: ".ascii-text", delay: 1 },
   { name: "mainText", element: ".line", delay: 1 },
   { name: "projectHeaders", element: ".project-header-text", delay: 1 }
 ];
@@ -15,13 +16,20 @@ document.addEventListener("DOMContentLoaded", () => {
   typingSequence.forEach(groupConfig => {
     const elements = document.querySelectorAll(groupConfig.element);
     const texts = [];
+    const links = [];
 
     elements.forEach(element => {
       texts.push(element.textContent);
+      const a = element.querySelector('a');
+      if (a) {
+        links.push({ href: a.getAttribute('href'), text: a.textContent, target: a.getAttribute('target'), rel: a.getAttribute('rel') });
+      } else {
+        links.push(null);
+      }
       element.textContent = "";
     });
 
-    cachedElementData[groupConfig.name] = { elements, texts };
+    cachedElementData[groupConfig.name] = { elements, texts, links };
   });
 
   startTypingGroup(0);
@@ -29,8 +37,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // Update width after everything is loaded.
   updateDividers();
 
-  // Fade in our relevant elements. Temp animation until typewriter effect handles these.
-  [".ascii-text", ".skills-container", ".divider"].forEach(selector => {
+  // Fade in non-ascii elements. ASCII will be typed line-by-line.
+  [".skills-container", ".divider"].forEach(selector => {
     document.querySelectorAll(selector).forEach(element => {
       fadeIn(element, 2000);
     });
@@ -62,7 +70,29 @@ function typeGroupSequentially(groupName, onComplete = null) {
     return;
   }
 
-  const { elements, texts } = group;
+  const { elements, texts, links } = group;
+
+  // Special handling for ASCII art groups: type line-by-line quickly
+  if (groupName === 'ascii') {
+    function typeAsciiElement(index) {
+      if (index >= elements.length) {
+        const eventName = `finishedTyping_${groupName}`;
+        eventDispatcher.dispatchEvent(new CustomEvent(eventName));
+        if (onComplete) onComplete();
+        return;
+      }
+
+      const element = elements[index];
+      const fullText = texts[index] || "";
+      typeAsciiArt(element, fullText, () => {
+        // tiny gap between ascii blocks to keep overall time short
+        setTimeout(() => typeAsciiElement(index + 1), 10);
+      });
+    }
+
+    typeAsciiElement(0);
+    return;
+  }
 
   function typeNext(index) {
     if (index >= elements.length) {
@@ -79,7 +109,19 @@ function typeGroupSequentially(groupName, onComplete = null) {
     const element = elements[index];
     const text = texts[index];
 
+    const linkInfo = links ? links[index] : null;
     typeText(element, text, 0, false, () => {
+      if (linkInfo) {
+        const linkText = linkInfo.text || "";
+        const href = linkInfo.href || "";
+        const target = linkInfo.target ? ` target="${linkInfo.target}"` : "";
+        const rel = linkInfo.rel ? ` rel="${linkInfo.rel}"` : "";
+        const anchorHTML = `<a href="${href}"${target}${rel} style="color:inherit; text-decoration:none;">${linkText}</a>`;
+        // Replace the first occurrence of the link text with the anchor HTML
+        const current = element.textContent;
+        const replaced = current.replace(linkText, anchorHTML);
+        element.innerHTML = replaced;
+      }
       setTimeout(() => typeNext(index + 1), currentDelay);
     });
   }
@@ -97,6 +139,62 @@ function typeText(element, text, i = 0, isLastLine = false, onComplete) {
     }
   }
 }
+
+/*******************************************************************************
+ * ASCII BLOCK TYPING                                                                             
+ ******************************************************************************/
+// Types a pre-style ASCII block line-by-line. Keeps newlines between lines.
+function typeAsciiArt(element, fullText, onComplete) {
+  const lines = fullText.split('\n');
+  // Ensure element is visible (CSS sets initial opacity:0)
+  element.style.display = 'block';
+  element.style.opacity = 1;
+  element.style.whiteSpace = 'pre';
+  element.textContent = "";
+  // Fast typing: append chunks per animation frame for maximum speed while preserving effect
+  function typeLineFast(line, cb) {
+    let pos = 0;
+    const chunkSize = 10; // characters appended per frame for speed
+
+    function step() {
+      if (pos >= line.length) {
+        if (cb) cb();
+        return;
+      }
+      element.textContent += line.slice(pos, pos + chunkSize);
+      pos += chunkSize;
+      requestAnimationFrame(step);
+    }
+
+    step();
+  }
+
+  function typeLine(i) {
+    if (i >= lines.length) {
+      if (onComplete) onComplete();
+      return;
+    }
+
+    const line = lines[i];
+    if (!line) {
+      // empty line: just add newline and continue
+      element.textContent += "\n";
+      requestAnimationFrame(() => typeLine(i + 1));
+      return;
+    }
+
+    typeLineFast(line, () => {
+      element.textContent += "\n";
+      // next line on next frame to keep it very fast
+      requestAnimationFrame(() => typeLine(i + 1));
+    });
+  }
+
+  typeLine(0);
+}
+/*******************************************************************************
+ * ASCII BLOCK TYPING END                                                                            
+ ******************************************************************************/
 
 function addBlinkingCursor(element) {
   const cursor = document.createElement("span");
