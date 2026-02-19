@@ -1,17 +1,20 @@
 const eventDispatcher = new EventTarget();
 
 const typingSequence = [
-  { name: "ascii", element: ".ascii-text", delay: 1 },
-  { name: "mainText", element: ".line", delay: 1 },
-  { name: "projectHeaders", element: ".project-header-text", delay: 1 }
+  { name: "ascii", element: ".ascii-text", delay: 0.1 },
+  { name: "mainText", element: ".line", delay: 0.1 },
+  { name: "projectHeaders", element: ".project-header-text", delay: 0.1 }
 ];
 
 // Stores cached data for each group
 const cachedElementData = {};
 
-let currentDelay = 1;
+let currentDelay = 0.1;
 
 document.addEventListener("DOMContentLoaded", () => {
+  // Ensure dividers are sized before we cache text so their content is typed
+  if (typeof updateDividers === 'function') updateDividers();
+
   // Cache all text and hide it initially.
   typingSequence.forEach(groupConfig => {
     const elements = document.querySelectorAll(groupConfig.element);
@@ -34,15 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   startTypingGroup(0);
 
-  // Update width after everything is loaded.
-  updateDividers();
-
-  // Fade in non-ascii elements. ASCII will be typed line-by-line.
-  [".skills-container", ".divider"].forEach(selector => {
-    document.querySelectorAll(selector).forEach(element => {
-      fadeIn(element, 2000);
-    });
-  });
+  // (dividers and skill cards are handled by the typewriter)
 });
 
 /* ===================== */
@@ -130,13 +125,23 @@ function typeGroupSequentially(groupName, onComplete = null) {
 }
 
 function typeText(element, text, i = 0, isLastLine = false, onComplete) {
+  // Reveal element and any nearby skills container when typing starts
+  if (i === 0) {
+    try { element.style.display = element.style.display || 'block'; } catch (e) {}
+    try { element.style.opacity = 1; } catch (e) {}
+    try { element.style.visibility = 'visible'; } catch (e) {}
+    try {
+      // If the element is inside a container for skill cards, reveal it
+      const container = element.closest ? element.closest('.skills-container') : null;
+      if (container) { container.style.display = container.style.display || 'flex'; container.style.opacity = 1; container.style.visibility = 'visible'; }
+    } catch (e) {}
+  }
+
   if (i < text.length) {
     element.textContent += text.charAt(i);
     setTimeout(() => typeText(element, text, i + 1, isLastLine, onComplete), currentDelay);
   } else {
-    if (onComplete) {
-      onComplete();
-    }
+    if (onComplete) onComplete();
   }
 }
 

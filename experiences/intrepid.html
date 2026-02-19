@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intrepid Studios — Experience</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <div id="terminal">
+    <nav>
+      <a href="../index.html">home</a>
+      <a href="../experience.html">[experience]</a>
+      <a href="../contact.html">contact</a>
+    </nav>
+
+    <script src="../utils.js"></script>
+    <script src="../cards.js"></script>
+    <script src="../experience.js"></script>
+    <script>
+      const data = {
+        title: "Ashes of Creation",
+        company: "Intrepid Studios",
+        media: { type: "video", src: "https://www.youtube.com/embed/iGSoApuHbO0?si=UYfQc1jj-xAtfRbg", title: "YouTube video player" },
+        fields: {
+          role: 'Gameplay Engineer',
+          genre: 'MMORPG',
+          dates: 'April 2024 to February 2026 [Mass layoffs]',
+          location: 'San Diego, CA, United States [Remote]'
+        },
+        sections: [
+          { type: 'header', text: 'SKILLS' },
+          { type: 'cards', id: 'intrepid-skills', items: ["C++", "Unreal Engine 5", "AI Systems", "Gameplay Systems", "Navigation", "Pathfinding", "3D Math", "Replication", "Multi-Server Architectures", "Unreal Insights"] },
+          { type: 'header', text: 'HIGHLIGHTS' },
+          { type: 'cards', id: 'intrepid-highlights', items: ["Shipped AAA Game", "Owned core features"] },
+          { type: 'header', text: 'CONTRIBUTIONS' },
+          { type: 'contributions', items: [
+            "• Owned core combat and movement systems as a key contributor of the NPC team.",
+            "• Shipped a Steam release and two alpha phases, including pre-release deployment, issue triage, and patch delivery.",
+            "• Delivered reliable gameplay features for a networked, multiserver, and multi-threaded architecture, ensuring correct replication, server authority, and thread safety across distributed systems.",
+            "• Built custom NPC behaviors using State Trees, including engine-level optimizations, bug fixes, and supporting tools.",
+            "• Identified and resolved systemic NPC navigation failures by implementing a custom movement layer for better control of validation and navmesh projections, with safeguards to recover from invalid locations and unreachable destination handling.",
+            "• Significantly improved developer productivity and debugging workflows by authoring internal tools, including State Tree bulk data batch editing and runtime character state monitoring.",
+            "• Improved runtime performance by profiling with Unreal Insights and implementing optimizations, including a enginelevel State Tree node pooling and reuse system.",
+            "• Served as release captain during live service windows, resolving high priority bugs and coordinating hotfixes during critical weekend support.",
+            "• Created automated functional tests to validate gameplay and AI behaviors in multi server environments."
+          ] },
+          { type: 'back' }
+        ]
+      };
+      createExperiencePage(data);
+    </script>
+
+    <script src="../divider.js"></script>
+    <script src="../script.js"></script>
+  </div>
+</body>
+</html>

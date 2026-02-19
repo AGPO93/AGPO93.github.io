@@ -7,6 +7,8 @@ function createCards(containerId, skills) {
     skills.forEach(skill => {
         const card = document.createElement("pre");
         card.classList.add("skill-card");
+        // Participate in the main typewriter flow
+        card.classList.add("line");
 
         const padding = 2;
         const contentWidth = skill.length + padding * 2;
