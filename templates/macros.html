@@ -1,0 +1,3 @@
+{% macro tags(items) -%}
+<div class="tags">{% for item in items %}<span class="tag"><i aria-hidden="true">[</i>{{ item }}<i aria-hidden="true">]</i></span>{% endfor %}</div>
+{%- endmacro %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% from "macros.html" import tags %}
+{% block main %}
+<h1 class="sr">{{ site.name }}</h1>
+<pre class="banner" aria-hidden="true" data-typewriter data-cps="700">{{ banner }}</pre>
+<div data-typewriter>
+  <p class="lede"><i aria-hidden="true">&gt; </i>{{ home.lede }}</p>
+  <div class="sub">{{ home.body | safe }}</div>
+</div>
+<div data-typewriter data-cps="90">{{ tags(home.skills) }}</div>
+{% endblock %}
+{% block scripts %}
+<script type="module" src="/js/home.js"></script>
+{% endblock %}

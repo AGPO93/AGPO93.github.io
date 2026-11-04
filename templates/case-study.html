@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block main %}
+<a class="back" href="{{ experience_url }}{{ role.slug }}/">back to {{ role.company }}</a>
+<h1 class="page">{{ case.title }}</h1>
+<div class="prose">{{ case.body | safe }}</div>
+<a class="back bottom" href="{{ experience_url }}{{ role.slug }}/">back to {{ role.company }}</a>
+{% endblock %}

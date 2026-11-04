@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% from "macros.html" import tags %}
+{% block main %}
+<a class="back" href="{{ experience_url }}">back to experience</a>
+<h1 class="page">{{ role.title }}</h1>
+{% if role.media.type == "video" %}
+<div class="media video"><iframe src="{{ role.media.src }}" title="{{ role.media.title }}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+{% elif role.media.type == "image" %}
+<div class="media"><img src="{{ role.media.src }}" alt="{{ role.media.alt }}"></div>
+{% endif %}
+<dl class="facts">
+  <dt>company</dt><dd>{{ role.company }}</dd>
+  <dt>role</dt><dd>{{ role.role }}</dd>
+  <dt>genre</dt><dd>{{ role.genre }}</dd>
+  <dt>dates</dt><dd>{{ role.dates }}{% if role.note %} [{{ role.note }}]{% endif %}</dd>
+  <dt>location</dt><dd>{{ role.location }}</dd>
+</dl>
+{% if role.highlights %}
+<h2>Highlights</h2>
+{{ tags(role.highlights) }}
+{% endif %}
+{% if role.skills %}
+<h2>Skills</h2>
+{{ tags(role.skills) }}
+{% endif %}
+<h2>Contributions</h2>
+<div class="prose">{{ role.body | safe }}</div>
+{% if role.case_studies %}
+<h2>Case studies</h2>
+<div class="cards">
+{% for case in role.case_studies %}
+  <a class="card" href="{{ experience_url }}{{ role.slug }}/{{ case.slug }}/">
+    <div class="body"><h3>{{ case.title }}</h3><p>{{ case.summary }}</p></div>
+  </a>
+{% endfor %}
+</div>
+{% endif %}
+<a class="back bottom" href="{{ experience_url }}">back to experience</a>
+{% endblock %}

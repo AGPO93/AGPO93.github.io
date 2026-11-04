@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if title %}{{ title }} | {% endif %}{{ site.name }}</title>
+<link rel="preload" href="/fonts/ibm-plex-mono-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <a class="brand" href="/">{{ site.name | lower | replace(' ', '-') }}</a>
+    <nav>
+      {% for item in site.nav %}<a href="{{ item.url }}"{% if item.url == path %} aria-current="page"{% endif %}>{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+  {% block main %}{% endblock %}
+  {% if not hide_footer_contact %}
+  <footer>
+    <span><a href="mailto:{{ site.email }}">{{ site.email }}</a> · <a href="{{ site.linkedin }}">{{ site.linkedin_label }}</a></span>
+  </footer>
+  {% endif %}
+</div>
+{% block scripts %}{% endblock %}
+</body>
+</html>

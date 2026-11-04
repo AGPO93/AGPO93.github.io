@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% set hide_footer_contact = true %}
+{% block main %}
+<h1 class="page">{{ contact.title }}</h1>
+<dl class="facts">
+  <dt>email</dt><dd><a href="mailto:{{ site.email }}">{{ site.email }}</a></dd>
+  <dt>linkedin</dt><dd><a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">{{ site.linkedin | replace("https://", "") }}</a></dd>
+  <dt>location</dt><dd>{{ contact.location }}</dd>
+</dl>
+{% endblock %}

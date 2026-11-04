@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% from "macros.html" import tags %}
+{% block main %}
+<h1 class="page">experience</h1>
+<div class="cards">
+{# the first row of cards is on screen at load, so only the rest are lazy-loaded #}
+{% set cards_per_row = 3 %}
+{% for role in roles %}
+  <a class="card" href="{{ experience_url }}{{ role.slug }}/">
+    <img class="cover" src="{{ role.cover }}" alt="{{ role.cover_alt }}"{% if loop.index > cards_per_row %} loading="lazy"{% endif %}>
+    <div class="body"><h3>{{ role.card_title or role.title }}</h3><div class="meta">{{ role.company }}</div>
+    {{ tags(role.tags) }}</div>
+  </a>
+{% endfor %}
+</div>
+{% endblock %}
